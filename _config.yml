@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            Momex
-tagline:          'Projectes d'electrònica en català'
-description:      'Exposició del codi font emprat per alguns projectes d'electrònica relacionats amb Harley Davidson i domèstics.'
+tagline:          'Projectes d,electrònica en català'
+description:      'Exposició del codi font emprat per alguns projectes d,electrònica relacionats amb Harley Davidson i domèstics.'
 url:              http://www.momex.cat
 baseurl:          /
 
