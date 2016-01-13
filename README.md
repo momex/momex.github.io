@@ -3,9 +3,9 @@ Aquest web ha de servir per retornar a la comunitat open source tot el coneixeme
 
 ## License
 Open sourced under the [MIT license](LICENSE.md).
-Tema de Jekyll (Hyde) per Mark Otto
-Software Electrònic, esquemàtics, imatges, ... per Xavier Morales
+Tema de Jekyll (Hyde) per Mark Otto.
+Software Electrònic, esquemàtics, imatges, ... per Xavier Morales.
 
 ## Autor
 **Xavier Morales**
-- <www.momex.cat>
+- <http://www.momex.cat>
