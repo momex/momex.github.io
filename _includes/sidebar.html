@@ -1,6 +1,13 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+
+
+{% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
+{% for post in posts %}
+   <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+{% endfor %}
+
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -26,11 +33,15 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <a href="mailto:{{ site.author.email }}">Contacte</a>      
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+      <br>
+      <span class="sidebar-nav-item">Estudi d'interiorisme i decoració</span>
+      <a class="sidebar-nav-item" href="http://demarcasueca.com/" target="_blank">De Marca Sueca</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p> {{ site.time | date: '%Y' }}. {{site.author.name}}.</p>
+<!--    <p> {{site.posts}}.</p>-->
   </div>
 </div>

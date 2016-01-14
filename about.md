@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre mi
 ---
 
 Hola, sóc el **Xavier Morales** i aquest és el meu lloc web.

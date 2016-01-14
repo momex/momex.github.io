@@ -8,14 +8,15 @@ relative_permalinks: true
 
 # Setup
 title:            Momex
-tagline:          'Projectes d,electrònica en català'
-description:      'Exposició del codi font emprat per alguns projectes d,electrònica relacionats amb Harley Davidson i domèstics.'
+tagline:          'Projectes d''electrònica en català'
+description:      'Exposició de projectes d''electrònica relacionats amb Harley Davidson i d''altres de caire domèstic.'
 url:              http://www.momex.cat
 baseurl:          /
 
 author:
   name:           'Xavier Morales'
   url:            https://www.momex.cat
+  email:          morales.xavier@momex.cat
 
 paginate:         5
 
@@ -24,3 +25,17 @@ version:          0.0.1
 
 github:
   repo:           https://github.com/momex/momex.github.io.git
+
+defaults:
+  -
+    scope:
+      path: _posts/ca
+    values:
+      layout: default
+      lang: ca
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
