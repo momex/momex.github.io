@@ -2,7 +2,6 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
 
-
 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
 {% for post in posts %}
    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
@@ -13,18 +12,18 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{{ site.trans[page.lang].desc }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}{% if page.lang == "en" %}en{% endif %}">{{ site.trans[page.lang].home }}</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      {% assign pages_list = site.pages | where: "lang", page.lang %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
@@ -33,8 +32,8 @@
         {% endif %}
       {% endfor %}
 
-      <a href="mailto:{{ site.author.email }}">Contacte</a>      
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <a href="mailto:{{ site.author.email }}">{{ site.trans[page.lang].cont }}</a>      
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">{{ site.trans[page.lang].ghpro }}</a>
       <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
       <br>
       <span class="sidebar-nav-item">Estudi d'interiorisme i decoració</span>

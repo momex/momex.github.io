@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-lang: en
+title: Sobre mi
+name: sobre-mi.md
+lang: ca
 ---
 
 Hola, sóc el **Xavier Morales** i aquest és el meu lloc web.
