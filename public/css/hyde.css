@@ -99,6 +99,16 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+
+/* Language */
+.ca.active{
+    font-weight: bold;
+}
+.en.active{
+    font-weight: bold;
+}
+
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the

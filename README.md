@@ -4,7 +4,7 @@ Aquest web ha de servir per retornar a la comunitat open source tot el coneixeme
 ## License
 Open sourced under the [MIT license](LICENSE.md).
 
-Tema de Jekyll (Hyde) per Mark Otto.
+Tema de Jekyll (Hyde) per Mark Otto (modificacions per Xavier Morales)
 
 Software Electrònic, esquemàtics, imatges, ... per Xavier Morales.
 

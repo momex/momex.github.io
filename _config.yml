@@ -29,10 +29,14 @@ trans:
   ca:
     desc: "Projectes d'electrònica relacionats amb Harley Davidson i d'altres de caire DIY domèstic."
     home: "Inici"
+    about: "Sobre mi"
+    arxiu: "Arxiu"
     cont: "Contacte"
     ghpro: "Projecte GitHub"
   en:
     desc: "Electronic projects related to Harley Davidson and domestic DYI.                         "
     home: "Home"
+    about: "About"
+    arxiu: "Archive"
     cont: "Contact"
     ghpro: "GitHub project"

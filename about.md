@@ -1,9 +1,0 @@
----
-layout: page
-title: About
-lang: en
----
-
-Hola, sóc el **Xavier Morales** i aquest és el meu lloc web.
-
-Gràcies per la visita! **:)**
