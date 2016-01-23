@@ -8,7 +8,7 @@ relative_permalinks: true
 
 # Setup
 title:            Momex
-tagline:          'Projectes d''electrònica en català'
+
 url:              http://www.momex.cat
 baseurl:          /
 
@@ -25,6 +25,31 @@ version:          0.0.1
 github:
   repo:           https://github.com/momex/momex.github.io.git
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: ca
+      layout: default
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+      layout: default
+  -
+    scope:
+      path: _posts/ca/posts
+    values:
+      layout: post
+
+  -
+    scope:
+      path: _posts/en/posts
+    values:
+      layout: post
+
 trans:
   ca:
     desc: "Projectes d'electrònica relacionats amb Harley Davidson i d'altres de caire DIY domèstic."
@@ -33,6 +58,7 @@ trans:
     arxiu: "Arxiu"
     cont: "Contacte"
     ghpro: "Projecte GitHub"
+    tagline: "Projectes d'electrònica i altres"
   en:
     desc: "Electronic projects related to Harley Davidson and domestic DYI.                         "
     home: "Home"
@@ -40,3 +66,4 @@ trans:
     arxiu: "Archive"
     cont: "Contact"
     ghpro: "GitHub project"
+    tagline: "Electronic projects and others"
