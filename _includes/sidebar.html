@@ -7,7 +7,6 @@
 {% for post in posts %}
    <a href="{{ post.url }}" {% if page.lang == post.lang %} class="{{ post.lang }} active{% endif %}">{{ post.lang }}</a>
 {% endfor %}
-
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
