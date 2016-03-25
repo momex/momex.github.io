@@ -2,7 +2,6 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
 
-
 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
 {% for post in posts %}
    <a href="{{ post.url }}" {% if page.lang == post.lang %} class="{{ post.lang }} active{% endif %}">{{ post.lang }}</a>
