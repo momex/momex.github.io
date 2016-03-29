@@ -3,6 +3,7 @@ type: posts
 layout: post
 lang: en
 title: Hello world
+category: test2
 name: hola
 permalink: /en/hello-world-test1/
 ---

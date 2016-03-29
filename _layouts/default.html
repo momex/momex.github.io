@@ -13,7 +13,7 @@
     <div class="content container">
 
          <div class="page">
-            <h1 class="page-title">{{ page.title }}</h1>
+            {% if page.type == "pages" %} <h1 class="page-title">{{ page.title }}</h1> {% endif %}
             {{ content }}
         </div>
 <footer id="footer" class="inner">{% include footer.html %}</footer>

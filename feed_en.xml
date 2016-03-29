@@ -8,7 +8,9 @@ layout: null
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>
     {{ site.url }}</link>
-    {% assign posts=site.posts | where:"type", "posts" %} 
+    {% assign posts=site.posts | where:"lang", "en" | where:"type", "posts" %}
+
+ 
     {% for post in posts %}
       {% unless post.link %}
       <item>
