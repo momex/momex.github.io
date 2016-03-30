@@ -2,6 +2,7 @@
 type: posts
 layout: post
 lang: ca
+comments: true
 title: Tacómetre Digital per a Harley Davidson Sportster (Part 1 - Introducció)
 name: HD-tacho-part1
 permalink: HD-tacho-part1

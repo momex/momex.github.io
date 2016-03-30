@@ -9,7 +9,8 @@
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }} </span>
+    <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.title }}"></a>
+    </span>
     {{ post.content }}
   </div>
   {% endfor %}
