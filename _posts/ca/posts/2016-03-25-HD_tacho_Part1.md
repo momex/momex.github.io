@@ -13,8 +13,9 @@ keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE
 A l'hora de conduir un vehicle a tots ens venen al cap com a mínim un parell d'indicadors bàsics que ens donen una idea de la velocitat i de les revolucions (rpm) del motor. En camions o cotxes és habitual trobar molta més informació al quadre d'instruments però en una moto, generalment per motius d'espai, això va una mica més comprimit. Si bé hi ha models que incorporen els dos rellotges de velocitat i rpm, alguns els fusionen i passen a tenir un rellotge de rpm i un LCD on es mostra la velocitat.<br>
 Quan passem a motos més econòmiques o a motors que no es revolucionen molt, la cosa es simplifica bastant. Els indicadors d'una Harley Davidson Sportster són molt bàsics. Consten d'un rellotge on s'indica la velocitat, uns quants testimonis lluminosos (benzina, avís d'error de motor,...) i un petit display LCD per mostrar els km totals, dos parcials i l'hora. 
 <p>
+<!--more-->
 
-<center><img src="/images/meter.png" alt="Contingut: HD Sportster Comptekilómetres. Source: Xavier Morales"></center>
+<center><img src="/images/Part1/meter.png" alt="Contingut: HD Sportster Comptekilómetres. Source: Xavier Morales"></center>
 
 Per a una persona obsessiva del control com jo, això obviament no era suficient, així que vaig proposar-me a llarg termini (gairebé 4 anys) dissenyar algun giny que em proporcionés un mínim d'informació extra; revolucions motor i quina marxa portava engranada <sub>(1)</sub>. <p>
 
@@ -24,7 +25,7 @@ Dividiré aquest projecte en 12 parts, on aniré introduint els passos que he se
 <p>
 
 <a href="/HD-tacho-part1/">Part 1 - Introducció </a> <br>
-Part 2 - Bus de dades i sensors <br>
+<a href="/HD-tacho-part2/">Part 2 - Bus de dades i sensors </a><br>
 Part 3 - Harley Davidson i SAE J1850 VPW <br>
 Part 4 - Disseny en paper i funcions <br>
 Part 5 - Components principals <br>

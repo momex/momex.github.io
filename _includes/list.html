@@ -9,9 +9,12 @@
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.title }}"></a>
+    <span class="post-date">{{ post.date | date_to_string }} - <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.title }}">0 Comments</a>
     </span>
-    {{ post.content }}
+    {{ post.excerpt }}
+    {% if post.content contains site.excerpt_separator %}
+          <a href="{{ post.url }}">...Seguiu llegint</a>
+      {% endif %}
   </div>
   {% endfor %}
 </div> 

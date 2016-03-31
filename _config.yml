@@ -26,6 +26,7 @@ paginate:         5
 
 # Custom vars
 version:          0.0.1
+excerpt_separator: <!--more-->
 
 github:
   repo:           https://github.com/momex/momex.github.io.git
@@ -36,6 +37,7 @@ trans:
     home: "Inici"
     about: "Sobre mi"
     related: "Posts similars amb la categoria"
+    search: "Buscar a momex.cat:"
     arxiu: "Arxiu"
     cont: "Contacte"
     ghpro: "Projecte GitHub"
@@ -45,6 +47,7 @@ trans:
     home: "Home"
     about: "About"
     related: "Related Posts with similar category"
+    search: "Search in momex.cat:"
     arxiu: "Archive"
     cont: "Contact"
     ghpro: "GitHub project"
