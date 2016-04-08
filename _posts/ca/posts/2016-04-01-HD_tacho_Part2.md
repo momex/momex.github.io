@@ -3,11 +3,11 @@ type: posts
 layout: post
 lang: ca
 comments: true
-title: Tacómetre Digital per a Harley Davidson Sportster (Part 2 - Bus de dades i sensors)
+title: Tacòmetre Digital per a Harley Davidson Sportster (Part 2 - Bus de dades i sensors)
 name: HD-tacho-part2
 permalink: HD-tacho-part2
 category: tacho
-keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, bus, dades, sensors
+keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, bus, dades, sensors
 ---
 
 En aquesta segona part ens centrarem en l'eléctrònica de la moto i en saber què podem i què no podem utilitzar.<br>

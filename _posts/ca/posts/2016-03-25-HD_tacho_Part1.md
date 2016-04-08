@@ -3,7 +3,7 @@ type: posts
 layout: post
 lang: ca
 comments: true
-title: Tacómetre Digital per a Harley Davidson Sportster (Part 1 - Introducció)
+title: Tacòmetre Digital per a Harley Davidson Sportster (Part 1 - Introducció)
 name: HD-tacho-part1
 permalink: HD-tacho-part1
 category: tacho
@@ -15,7 +15,7 @@ Quan passem a motos més econòmiques o a motors que no es revolucionen molt, la
 <p>
 <!--more-->
 
-<center><img src="/images/Part1/meter.png" alt="Contingut: HD Sportster Comptekilómetres. Source: Xavier Morales"></center>
+<center><img src="/images/Part1/meter.png" alt="Contingut: HD Sportster velocímetre. Source: Xavier Morales"></center>
 
 Per a una persona obsessiva del control com jo, això obviament no era suficient, així que vaig proposar-me a llarg termini (gairebé 4 anys) dissenyar algun giny que em proporcionés un mínim d'informació extra; revolucions motor i quina marxa portava engranada <sub>(1)</sub>. <p>
 
@@ -26,16 +26,17 @@ Dividiré aquest projecte en 12 parts, on aniré introduint els passos que he se
 
 <a href="/HD-tacho-part1/">Part 1 - Introducció </a> <br>
 <a href="/HD-tacho-part2/">Part 2 - Bus de dades i sensors </a><br>
-Part 3 - Harley Davidson i SAE J1850 VPW <br>
-Part 4 - Disseny en paper i funcions <br>
-Part 5 - Components principals <br>
-Part 6 - Esquemàtic <br>
-Part 7 - Disseny de la PCB <br>
-Part 8 - Codi font i llibreries <br>
-Part 9 - Disseny de la carcassa i suports <br>
-Part 10 - Cablatge i Tests <br>
-Part 11 - Cablatge i instal·lació a la moto <br>
-Part 12 - Problemes durant el projecte <br>
+<a href="/HD-tacho-part3/">Part 3 - Harley Davidson i SAE J1850 VPW </a><br>
+Part 4 - Missatges al bus <br>
+Part 5 - Anàlisi del mercat <br>
+Part 6 - Disseny, funcions i components <br>
+Part 7 - Esquemàtic <br>
+Part 8 - Disseny de la PCB <br>
+Part 9 - Codi font i llibreries <br>
+Part 10 - Disseny de la carcassa i suports <br>
+Part 11 - Cablejat i Tests <br>
+Part 12 - Cablejat i instal·lació a la moto <br>
+Part 13 - Problemes durant el projecte <br>
 
 <p>
 <sub>(1) No us ha passat mai d'anar en 5ena i voler pujar una marxa més?</sub>
