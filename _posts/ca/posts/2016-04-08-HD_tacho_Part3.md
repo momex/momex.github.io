@@ -3,14 +3,14 @@ type: posts
 layout: post
 lang: ca
 comments: true
-title: Tacómetre Digital per a Harley Davidson Sportster (Part 3 - Harley Davidson i SAE J1850 VPW)
+title: Tacòmetre Digital per a Harley Davidson Sportster (Part 3 - Harley Davidson i SAE J1850 VPW)
 name: HD-tacho-part3
 permalink: HD-tacho-part3
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, VPW, especificacions
 ---
 
-La manera curta i millor d'entendre aquest protocol és llegint-se <a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank">aquest document</a> (en anglés). La manera llarga és llegint-se directament la SAE J1850. De totes maneres, tot seguit resumiré els punts bàsics que s'han d'entendre per a poder programar un codi per rebre i interpretar els missatges de l'ECU motor. <br>
+La manera curta i millor d'entendre aquest protocol és llegint <a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank">aquest document</a> (en anglés). La manera llarga és llegint directament la SAE J1850. De totes maneres, tot seguit resumiré els punts bàsics que s'han d'entendre per a poder programar un codi per rebre i interpretar els missatges de l'ECU motor. <br>
 
 D'acord amb l'estandard SAE J1850 VPW, a la moto tindrem un sol cable per on circularà la informació en funció d'uns nivells de voltatge i d'un temps de transmissió. Els nivells són: <br>
 - <u>Passiu</u>: 0 - 3,5V (estat natural del bus)<br>
