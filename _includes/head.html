@@ -27,7 +27,7 @@
                                  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="Momex.cat" href="{{ site.baseurl }}blog.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Momex.cat" href="{{ site.baseurl }}blog{% if page.lang == "en" %}_en{% endif %}.xml" />
 </head>
 
 <script language="Javascript" type="text/javascript">

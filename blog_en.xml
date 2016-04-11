@@ -5,8 +5,8 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.name }} - Blog(català)</title>
- <link href="{{ site.url }}/blog.xml" rel="self"/>
+ <title>{{ site.name }} - Blog(english)</title>
+ <link href="{{ site.url }}/blog_en.xml" rel="self"/>
  <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
@@ -15,14 +15,14 @@ layout: null
    <email>{{ site.author.email }}</email>
  </author>
 
- {% assign posts=site.posts | where:"lang", "ca" | where:"type", "posts" %}
+ {% assign posts=site.posts | where:"lang", "en" | where:"type", "posts" %}
  {% for post in posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.excerpt | xml_escape }} Seguiu llegint...</content>
+   <content type="html">{{ post.excerpt | xml_escape }} Read more...</content>
  </entry>
  {% endfor %}
 

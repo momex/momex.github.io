@@ -10,7 +10,7 @@ category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, VPW, especificacions
 ---
 
-La manera curta i millor d'entendre aquest protocol és llegint <a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank">aquest document</a> (en anglés). La manera llarga és llegint directament la SAE J1850. De totes maneres, tot seguit resumiré els punts bàsics que s'han d'entendre per a poder programar un codi per rebre i interpretar els missatges de l'ECU motor. <br>
+La manera curta i millor d'entendre aquest protocol és llegint <a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank">aquest document</a> (en anglès). La manera llarga és llegint directament la SAE J1850. De totes maneres, tot seguit resumiré els punts bàsics que s'han d'entendre per a poder programar un codi per rebre i interpretar els missatges de l'ECU motor. <br>
 
 D'acord amb l'estandard SAE J1850 VPW, a la moto tindrem un sol cable per on circularà la informació en funció d'uns nivells de voltatge i d'un temps de transmissió. Els nivells són: <br>
 - <u>Passiu</u>: 0 - 3,5V (estat natural del bus)<br>
@@ -60,10 +60,10 @@ Pot estar composta des d'un fins a tres bytes. En el cas particular d'HD hi trob
 <dd><b>Byte #2:</b> Adreça Objectiu o ID primari. Aquest valor el trobarem a la SAE J2178-4 i pot ser un Command ID o un Status ID.</dd>
 <dd><b>Byte #3:</b> Adreça Origen</dd>
 
-Significat del byte#1 de la capçalera:<p>
+Significat del byte#1 de la capçalera:<br>
 <img src="/images/Part3/04.PNG" alt="Xavier Morales">
 
-<p>
+<br>
 Exemple (RPM: $28 $1B $10)<br>
 <b>$28</b>
 <img src="/images/Part3/05.PNG" alt="Xavier Morales">
@@ -91,17 +91,17 @@ Els ID primaris solen tenir ID secondaris que permeten obtenir informació més 
 <br>
 El PRN (Paremeter Reference Number) és una referència que surt especificada en aquesta SAE 2178-4 per a cadascun dels Sec ID. Amb aquest PRN podrem anar a la SAE 2178-2 (Data Parameter Definitions) i saber quants bytes rebrem, fórmula per convertir els bytes rebuts en un valor decimal i quines unitats seran. <br>
 
-Per exemple, si busquem pel PRN 000C (RPM - Alta Resolució), ens diu que les unitats són RPM i que la resolució és d'1/4 (1bit=0,25 rpm). Per tant, si rebem pel bus els bytes <b>28 1B 10 02 0A F0</b> tindrem:<p>
+Per exemple, si busquem pel PRN 000C (RPM - Alta Resolució), ens diu que les unitats són RPM i que la resolució és d'1/4 (1bit=0,25 rpm). Per tant, si rebem pel bus els bytes <b>28 1B 10 02 0A F0</b> tindrem:<br>
 
 <dd><b>28 1B 10</b>: Capçalera d'RPM</dd>
 <dd><b>02</b>: ID Secondari per RPM d'alta resolució</dd>
 <dd><b>0A F0</b>: Valor d'RPM. Per calcular-lo farem:<br> 
 <dd>(byte0 * 0x100+byte1)/4= (0x0A * 0x100+0xF0)/4<br></dd>
 <dd>(10 * 256+240)/4= (2560+240)/4= 2800/4= 700rpm</dd>
-<p>
+<br>
 
 <dt>CRC (Cyclical Redundant Check = Comprobació cíclica de redundància)</dt>
-És 1 byte després del cos del missatge que s'ha obtingut pel node emissor mitjançant un càlcul matemàtic. Aquést número (CRC) és únic per aquesta combinació de bytes (capçalera + cos del missatge). Quan el node receptor ha rebut els bytes pel bus de dades també realitza la mateixa operació i obté un CRC. Si CRC enviat i calculat són el mateix, llavors vol dir que no hi ha hagut cap error de transmissió i que la informació rebuda és bona. En cas contrari, s'hauria de desestimar la informació perquè és corrupta o compromesa. <p>
+És 1 byte després del cos del missatge que s'ha obtingut pel node emissor mitjançant un càlcul matemàtic. Aquést número (CRC) és únic per aquesta combinació de bytes (capçalera + cos del missatge). Quan el node receptor ha rebut els bytes pel bus de dades també realitza la mateixa operació i obté un CRC. Si CRC enviat i calculat són el mateix, llavors vol dir que no hi ha hagut cap error de transmissió i que la informació rebuda és bona. En cas contrari, s'hauria de desestimar la informació perquè és corrupta o compromesa. <br>
 
 <dt>End of Data (EOD)</dt>
 Després del CRC, es deixa el bus en mode passiu durant 200us. Després de l'EOD, els receptors poden respondre el missatge o enviar-ne un altre de nou.
@@ -122,7 +122,7 @@ Exemple amb el primer byte de la capçalera anterior (<b>0x28</b>: <b>0b</b>0010
 
 <img src="/images/Part3/08.PNG" alt="Xavier Morales">
 
-Com veieu els bits es van alternant entre actiu i passiu. Com el SOF dicta quin és el primer en començar (Actiu), el primer bit de la capçalera serà passiu i la resta ja vindrà forçada per l'alternança. Tots els bits dels bytes del missatge es transmetran començant pel bit més significatiu, és a dir, bit7, bit6,..., bit0.<br><p>
+Com veieu els bits es van alternant entre actiu i passiu. Com el SOF dicta quin és el primer en començar (Actiu), el primer bit de la capçalera serà passiu i la resta ja vindrà forçada per l'alternança. Tots els bits dels bytes del missatge es transmetran començant pel bit més significatiu, és a dir, bit7, bit6,..., bit0.<br>
 
 <b>Nota:</b> Com veieu, un 0 Passiu sempre guanyarà a un 1 Passiu (El 0 és temporalment més curt i per tant canviarà al següent bit que tocarà ser Actiu abans i per tant l'1 haurà perdut l'arbitrarietat). El mateix passa amb el 0 Actiu, aquest és temporalment més llarg que l'1 Actiu.<br>
 
