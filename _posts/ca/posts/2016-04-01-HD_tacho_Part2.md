@@ -41,8 +41,8 @@ Fins al 2014, HD utilitzava un bus de dades d'un sol cable mitjançant el protoc
 
 En una HD Sportster (2007-2013) hi trobem les ECUs (Unitats de Control Electrònic) següents: <br>
 * ECM (unitat de control de motor) <br>
-* Velocímetre <br>
-* Alarma <br><br>
+* Display <br>
+* Body Control <br><br>
 
 En aquest projecte ens centrarem bàscicament en la informació enviada per la ECM ja que ens proporcionarà les RPM i la marxa actual. Per accedir al bus J1850 VPW utilitzarem el connector (Data Link Connector) que hi ha sota la tapa de la bateria (lateral posterior esquerre).<p>
 

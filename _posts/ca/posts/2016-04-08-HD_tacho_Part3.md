@@ -78,7 +78,7 @@ Exemple (RPM: $28 $1B $10)<br>
 <dd> Adreça objectiu/ ID primari: RPM - Status ID</dd>
 <b>$10</b>
 <dd> Adreça d'Origen (ECM: ecu motor)</dd>
-<dd> <b>Nota:</b> Altres adreces: 40 (Meter), 61 (Benzina)</dd>
+<dd> <b>Nota:</b> Altres adreces: 40 (Display), 61 (Body Control)</dd>
 </dl>
 
 <dt>Cos del Missatge</dt>
