@@ -27,7 +27,7 @@ paginate:         5
 # Custom vars
 version:          0.0.1
 excerpt_separator: <!--more-->
-
+google_verify: GUzeoxQDE3Q73wJInBLOjOT_jgk2pshrtP9jxxX9Og0
 github:
   repo:           https://github.com/momex/momex.github.io.git
 
