@@ -24,11 +24,11 @@ L'electrònica era una cosa pendent a la meva <em>checklist</em> així que vaig 
 Dividiré aquest projecte en 12 parts, on aniré introduint els passos que he seguit, els circuits i esquemàtics, els codis, els dissenys, etc. 
 <p>
 
-<a href="/HD-tacho-part1/">Part 1 - Introducció </a> <br>
-<a href="/HD-tacho-part2/">Part 2 - Bus de dades i sensors </a><br>
-<a href="/HD-tacho-part3/">Part 3 - Harley Davidson i SAE J1850 VPW </a><br>
-<a href="/HD-tacho-part4/">Part 4 - Missatges al bus </a><br>
-Part 5 - Anàlisi del mercat <br>
+<a href="/HD-tacho-part1">Part 1 - Introducció </a> <br>
+<a href="/HD-tacho-part2">Part 2 - Bus de dades i sensors </a><br>
+<a href="/HD-tacho-part3">Part 3 - Harley Davidson i SAE J1850 VPW </a><br>
+<a href="/HD-tacho-part4">Part 4 - Missatges al bus </a><br>
+<a href="/HD-tacho-part5">Part 5 - Anàlisi del mercat </a><br>
 Part 6 - Disseny, funcions i components <br>
 Part 7 - Esquemàtic <br>
 Part 8 - Disseny de la PCB <br>
