@@ -21,7 +21,7 @@ Per a una persona obsessiva del control com jo, això obviament no era suficient
 
 L'electrònica era una cosa pendent a la meva <em>checklist</em> així que vaig proposar-me anar per feina. Com bàsicament tot el que he aprés prové del <a href="https://ca.wikipedia.org/wiki/Codi_obert" target="_blank">codi obert</a> / <a href="https://ca.wikipedia.org/wiki/Programari_lliure" target="_blank">programari lliure</a> (open source en anglés) i gràcies al moviment cultural del <a href="https://ca.wikipedia.org/wiki/Coneixement_lliure" target="_blank">coneixement lliure</a> vaig decidir fer aquest blog per retornar a la comunitat tot allò que he aprés. <br>
 
-Dividiré aquest projecte en 12 parts, on aniré introduint els passos que he seguit, els circuits i esquemàtics, els codis, els dissenys, etc. 
+Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he seguit, els circuits i esquemàtics, els codis, els dissenys, etc. 
 <p>
 
 <a href="/HD-tacho-part1">Part 1 - Introducció </a> <br>
@@ -29,14 +29,15 @@ Dividiré aquest projecte en 12 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part3">Part 3 - Harley Davidson i SAE J1850 VPW </a><br>
 <a href="/HD-tacho-part4">Part 4 - Missatges al bus </a><br>
 <a href="/HD-tacho-part5">Part 5 - Anàlisi del mercat </a><br>
-Part 6 - Disseny, funcions i components <br>
-Part 7 - Esquemàtic <br>
-Part 8 - Disseny de la PCB <br>
-Part 9 - Codi font i llibreries <br>
-Part 10 - Disseny de la carcassa i suports <br>
-Part 11 - Cablejat i Tests <br>
-Part 12 - Cablejat i instal·lació a la moto <br>
-Part 13 - Problemes durant el projecte <br>
+<a href="/HD-tacho-part6">Part 6 - Disseny i funcions </a><br>
+Part 7 - Components <br>
+Part 8 - Esquemàtic <br>
+Part 9 - Disseny de la PCB <br>
+Part 10 - Codi font i llibreries <br>
+Part 11 - Disseny de la carcassa i suports <br>
+Part 12 - Cablejat i Tests <br>
+Part 13 - Cablejat i instal·lació a la moto <br>
+Part 14 - Problemes durant el projecte <br>
 
 <p>
 <sub>(1) No us ha passat mai d'anar en 5ena i voler pujar una marxa més?</sub>

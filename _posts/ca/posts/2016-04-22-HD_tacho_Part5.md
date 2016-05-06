@@ -93,3 +93,22 @@ Rellotges petits amb sol·lució de 3 cables (Ign, ground i senyal de la bobina 
 <li><h4>Altres:</h4></li>
 <a href="http://www.baronscustom.com/catalog/display/1062/index.html" target="_blank"> 2" MINI-BULLET TACH Black Face 1" Clamp</a>
 <br>
+
+<p>
+<font size="2"> 
+Índex de projecte:<br>
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+ Part7 /
+ Part8 /
+ Part9 /
+ Part10 /
+ Part11 /
+ Part12 /
+ Part13
+ </font>
+</p>
