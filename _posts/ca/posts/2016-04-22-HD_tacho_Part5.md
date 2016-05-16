@@ -103,12 +103,13 @@ Rellotges petits amb sol·lució de 3 cables (Ign, ground i senyal de la bobina 
 <a href="/HD-tacho-part4"> Part4 </a>/
 <a href="/HD-tacho-part5"> Part5 </a>/
 <a href="/HD-tacho-part6"> Part6 </a>/
- Part7 /
+<a href="/HD-tacho-part7"> Part7 </a>/
  Part8 /
  Part9 /
  Part10 /
  Part11 /
  Part12 /
- Part13
+ Part13 /
+ Part14
  </font>
 </p>

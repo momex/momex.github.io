@@ -30,7 +30,7 @@ Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part4">Part 4 - Missatges al bus </a><br>
 <a href="/HD-tacho-part5">Part 5 - Anàlisi del mercat </a><br>
 <a href="/HD-tacho-part6">Part 6 - Disseny i funcions </a><br>
-Part 7 - Components <br>
+<a href="/HD-tacho-part7">Part 7 - Components </a><br>
 Part 8 - Esquemàtic <br>
 Part 9 - Disseny de la PCB <br>
 Part 10 - Codi font i llibreries <br>

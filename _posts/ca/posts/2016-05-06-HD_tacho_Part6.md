@@ -23,7 +23,7 @@ Després de veure què és el que més m'ha agradat de l'estudi de mercat, què 
 
 La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><center>
 <img style="display:inline" src="/images/Part6/proto-disseny1.png" width="30%" alt="HD Sportster Tacòmetre. Source: Harley Davidson" title="HD Sportster amb doble rellotge">
-<img style="display:inline" src="/images/Part6/proto-disseny.jpg" width="40%" alt="Dakota Digital MCL-3200 vermell. Source: Dakota Digital" title="MCL-3200">
+<img style="display:inline" src="/images/Part6/proto-disseny.jpg" width="40%" alt="Esbós. Source: Xavier Morales" title="Esbós">
 </center>
 <!--more-->
 
@@ -46,12 +46,13 @@ La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><cente
 <a href="/HD-tacho-part4"> Part4 </a>/
 <a href="/HD-tacho-part5"> Part5 </a>/
 <a href="/HD-tacho-part6"> Part6 </a>/
- Part7 /
+<a href="/HD-tacho-part7"> Part7 </a>/
  Part8 /
  Part9 /
  Part10 /
  Part11 /
  Part12 /
- Part13
+ Part13 /
+ Part14
  </font>
 </p>
