@@ -150,7 +150,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com el SOF dicta quin 
 <a href="/HD-tacho-part5"> Part5 </a>/
 <a href="/HD-tacho-part6"> Part6 </a>/
 <a href="/HD-tacho-part7"> Part7 </a>/
- Part8 /
+<a href="/HD-tacho-part8"> Part8 </a>/
  Part9 /
  Part10 /
  Part11 /
