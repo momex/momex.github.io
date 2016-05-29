@@ -32,7 +32,7 @@ Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part6">Part 6 - Disseny i funcions </a><br>
 <a href="/HD-tacho-part7">Part 7 - Components </a><br>
 <a href="/HD-tacho-part8">Part 8 - Esquemàtic i BOM</a><br>
-Part 9 - Disseny de la PCB <br>
+<a href="/HD-tacho-part9">Part 9 - Disseny de la PCB </a><br>
 Part 10 - Codi font i llibreries <br>
 Part 11 - Disseny de la carcassa i suports <br>
 Part 12 - Cablejat i Tests <br>
