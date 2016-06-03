@@ -11,7 +11,7 @@ keywords: excel, libreoffice, calc, microsoft, office, funcions, traducció, cas
 ---
 
 Ja fa un temps que vaig començar a migrar de les interfícies en anglès o castellà cap al català. En algunes aplicacions no hi ha va haver cap problema, ja que els menús seguien quedant en la mateixa posició, però n'hi va haver una en particular que em va requerir una mica més d'esforç. Per motius de feina i domèstics sóc un enamorat dels llibres de càlcul (de veritat, no sé que faria sense ells). El fet de canviar la llengua implica que totes les funcions internes del full de càlcul també es traduiran i per tant tota la feina feta fins al moment (memoritzar unes quantes de les quasi 400 funcions que n'hi ha) s'hauria de tornar a repetir.<br>
-Ja portava un temps pensant en publicar una taula que relacionés totes les funcions d'Excel en castellà amb les seves homòlegues en català, tant per MS Excel com per LibreOffice Calc. Vaig buscar pel web alguna cosa similar però no vaig trobar res que fos de consulta ràpida. Així que si com jo, us heu decidit a mudar d'interfície, aquí us deixo la taula / llista de funcions que us servirà de <a href="https://ca.wikipedia.org/wiki/Pedra_de_Rosetta" target="_blank">pedra de Rosseta</a>, salvant les distàncies, és clar ;). Espero que us serveixi!!.
+Ja portava un temps pensant en publicar una taula que relacionés totes les funcions d'Excel en castellà amb les seves homòlegues en català, tant per MS Excel com per LibreOffice Calc. Vaig buscar pel web alguna cosa similar però no vaig trobar res que fos de consulta ràpida. Així que si com jo, us heu decidit a mudar d'interfície, aquí us deixo la taula / llista / llistat de funcions que us servirà de <a href="https://ca.wikipedia.org/wiki/Pedra_de_Rosetta" target="_blank">pedra de Rosseta</a>, salvant les distàncies, és clar ;). Espero que us serveixi!!.
 <br>
 <p><font size="3"><b>Nota1</b>: Les funcions remarcades en vermell (o taronja) són per identificar quines són les funcions que MS (o LibreOffice) encara no ha traduit al català i segueixen utilitzant la versió en castellà.</font>
 <br>
@@ -21,7 +21,7 @@ Ja portava un temps pensant en publicar una taula que relacionés totes les func
 <thead>
     <tr bgcolor="gray">
       <th colspan="2"><font color="white">EXCEL 2010</font></th>
-      <th><font color="white">LibreOffice</font></th>
+      <th><font color="white">LibreOffice Calc</font></th>
     </tr>
     <tr bgcolor="gray">
       <th><font color="white">Castellà</font></th>
@@ -1897,6 +1897,11 @@ Ja portava un temps pensant en publicar una taula que relacionés totes les func
   <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TENDENCIA</td>
   <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TENDENCIA</td>
   <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TENDENCIA</td>
+</tr>
+<tr>
+  <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TEST</td>
+  <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TEST</td>
+  <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TEST</td>
 </tr>
 <tr>
   <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left">TEXTO</td>
