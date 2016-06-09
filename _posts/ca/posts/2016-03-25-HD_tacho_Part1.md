@@ -33,11 +33,12 @@ Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part7">Part 7 - Components </a><br>
 <a href="/HD-tacho-part8">Part 8 - Esquemàtic i BOM</a><br>
 <a href="/HD-tacho-part9">Part 9 - Disseny de la PCB </a><br>
-Part 10 - Codi font i llibreries <br>
-Part 11 - Disseny de la carcassa i suports <br>
-Part 12 - Cablejat i Tests <br>
-Part 13 - Cablejat i instal·lació a la moto <br>
-Part 14 - Problemes durant el projecte <br>
+<a href="/HD-tacho-part10">Part 10 - Evolució dels prototips </a><br>
+Part 11 - Codi font i llibreries <br>
+Part 12 - Disseny de la carcassa i suports <br>
+Part 13 - Cablejat i Tests <br>
+Part 14 - Cablejat i instal·lació a la moto <br>
+Part 15 - Problemes durant el projecte <br>
 
 <p>
 <sub>(1) No us ha passat mai d'anar en 5ena i voler pujar una marxa més?</sub>

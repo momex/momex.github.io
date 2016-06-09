@@ -221,6 +221,7 @@ I el llistat de components o BOM (<i>Bill Of Materials</i>): <br>
 </table>
 
 
+
 <p>
 <font size="2"> 
 Índex de projecte:<br>
@@ -233,10 +234,11 @@ I el llistat de components o BOM (<i>Bill Of Materials</i>): <br>
 <a href="/HD-tacho-part7"> Part7 </a>/
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
- Part10 /
+<a href="/HD-tacho-part10"> Part10 </a>/
  Part11 /
  Part12 /
  Part13 /
- Part14
+ Part14 /
+ Part15
  </font>
 </p>

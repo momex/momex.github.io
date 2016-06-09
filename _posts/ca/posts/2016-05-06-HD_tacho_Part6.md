@@ -37,6 +37,7 @@ La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><cente
 - <b>Botó posterior:</b> Per canviar de mode, el sistema incorporarà un botó a la part posterior.
 - <b>Lluminositat:</b> Al ésser 7-segments i LEDs, la visibilitat dependrà totalment de la lluminositat exterior. Si la intensitat lluminosa dels LEDs fos constant, de nit podríem tenir problemes ja que ens il·luminaria massa. Per tant s'incorporarà una funció per poder variar la lluminositat utilitzant el botó posterior.
 
+
 <p>
 <font size="2"> 
 Índex de projecte:<br>
@@ -49,10 +50,11 @@ La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><cente
 <a href="/HD-tacho-part7"> Part7 </a>/
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
- Part10 /
+<a href="/HD-tacho-part10"> Part10 </a>/
  Part11 /
  Part12 /
  Part13 /
- Part14
+ Part14 /
+ Part15
  </font>
 </p>
