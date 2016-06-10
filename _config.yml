@@ -5,10 +5,8 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
-# Pagination
+#gems
 gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
 
 # Setup
 title:            Momex
@@ -42,6 +40,7 @@ trans:
     cont: "Contacte"
     ghpro: "Projecte GitHub"
     tagline: "Projectes d'electrònica i altres"
+    seguiu: "...Seguiu llegint"
   en:
     desc: "Electronic projects related to Harley Davidson and domestic DYI.                         "
     home: "Home"
@@ -52,3 +51,4 @@ trans:
     cont: "Contact"
     ghpro: "GitHub project"
     tagline: "Electronic projects and others"
+    seguiu: "...Read more"
