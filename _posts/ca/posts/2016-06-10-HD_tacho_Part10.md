@@ -60,7 +60,7 @@ Aquest és l'últim pas per a tot aficionat a l'electrònica que vol portar els 
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
 <a href="/HD-tacho-part10"> Part10 </a>/
- Part11 /
+<a href="/HD-tacho-part11"> Part11 </a>/
  Part12 /
  Part13 /
  Part14 /

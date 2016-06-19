@@ -21,7 +21,7 @@ Per a una persona obsessiva del control com jo, això obviament no era suficient
 
 L'electrònica era una cosa pendent a la meva <em>checklist</em> així que vaig proposar-me anar per feina. Com bàsicament tot el que he aprés prové del <a href="https://ca.wikipedia.org/wiki/Codi_obert" target="_blank">codi obert</a> / <a href="https://ca.wikipedia.org/wiki/Programari_lliure" target="_blank">programari lliure</a> (open source en anglés) i gràcies al moviment cultural del <a href="https://ca.wikipedia.org/wiki/Coneixement_lliure" target="_blank">coneixement lliure</a> vaig decidir fer aquest blog per retornar a la comunitat tot allò que he aprés. <br>
 
-Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he seguit, els circuits i esquemàtics, els codis, els dissenys, etc. 
+Dividiré aquest projecte en 15 parts, on aniré introduint els passos que he seguit, els circuits i esquemàtics, els codis, els dissenys, etc. 
 <p>
 
 <a href="/HD-tacho-part1">Part 1 - Introducció </a> <br>
@@ -34,7 +34,7 @@ Dividiré aquest projecte en 14 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part8">Part 8 - Esquemàtic i BOM</a><br>
 <a href="/HD-tacho-part9">Part 9 - Disseny de la PCB </a><br>
 <a href="/HD-tacho-part10">Part 10 - Evolució dels prototips </a><br>
-Part 11 - Codi font i llibreries <br>
+<a href="/HD-tacho-part11">Part 11 - Codi font i llibreries </a><br>
 Part 12 - Disseny de la carcassa i suports <br>
 Part 13 - Cablejat i Tests <br>
 Part 14 - Cablejat i instal·lació a la moto <br>

@@ -22,7 +22,7 @@ Les principals propietats del bus són:<br>
 - <u>Master-less</u>: cap node té superioritat o té el control sobre els altres.<br>
 - <u>Peer to peer</u>: tots els nodes tenen la mateixa capacitat de transmetre en tot moment.<br>
 <br>
-Una propietat molt important dels nodes és que quan un node parla, ell mateix analitza el bus per saber si el que està dient és efectivament el que hi ha al bus, més endavant entendrem el per què.<br>
+Una propietat molt important dels nodes és que quan un node parla, ell mateix analitza el bus per saber si el que està dient és efectivament el que hi ha al bus, més endavant entendrem el perquè.<br>
 <!--more-->
 <dl></dl>
 
@@ -38,7 +38,7 @@ En aquest tipus de busos tothom podrà parlar quan vulgui i per això s'ha d'est
 
 <img src="/images/Part3/02.PNG" alt="Xavier Morales">
 
-<dt>I com és defineix la prioritat dels missatges?</dt>
+<dt>I com es defineix la prioritat dels missatges?</dt>
 Tot es resol físicament. Com ja hem dit, el bus està en estat natural en mode passiu i per tant, els nodes només han d'activar o desactivar el transistor per posar el bus en mode actiu o passiu. Si un node està transmetent un bit passiu però llegeix que el bus està actiu, això vol dir que algun altre node està parlant a la vegada.
 <dt>Idò?</dt> 
 Tot radica als 3 bytes de la capçalera del missatge. Allà, un d'aquests bytes indica la prioritat del missatge que l'enginyer haurà establert amb anterioritat (per exemple: un missatge de RPM ha de ser més important que un missatge de temperatura, ja que en un segon la temperatura és bastant estable degut a la inèrcia tèrmica però les RPM poden variar molt).<br>
@@ -82,8 +82,8 @@ Exemple (RPM: $28 $1B $10)<br>
 </dl>
 
 <dt>Cos del Missatge</dt>
-Tant l'adreça objectiu com el cos del missatge venen definits a la SAE 2178-4 (Message Definition for Three Byte Headers).<br>
-Els ID primaris solen tenir ID secondaris que permeten obtenir informació més detallada. A l'exemple de les RPM, l'ID primari ($1B) en té 3:<br>
+Tant l'adreça objectiu com el cos del missatge vénen definits a la SAE 2178-4 (Message Definition for Three Byte Headers).<br>
+Els ID primaris solen tenir ID secundaris que permeten obtenir informació més detallada. A l'exemple de les RPM, l'ID primari ($1B) en té 3:<br>
 
 <dd> Sec ID 01- Baixa Resolució - PRN 1022</dd>
 <dd> Sec ID 02 - Alta Resolució - PRN 000C</dd>
@@ -101,7 +101,7 @@ Per exemple, si busquem pel PRN 000C (RPM - Alta Resolució), ens diu que les un
 <br>
 
 <dt>CRC (Cyclical Redundant Check = Comprobació cíclica de redundància)</dt>
-És 1 byte després del cos del missatge que s'ha obtingut pel node emissor mitjançant un càlcul matemàtic. Aquést número (CRC) és únic per aquesta combinació de bytes (capçalera + cos del missatge). Quan el node receptor ha rebut els bytes pel bus de dades també realitza la mateixa operació i obté un CRC. Si CRC enviat i calculat són el mateix, llavors vol dir que no hi ha hagut cap error de transmissió i que la informació rebuda és bona. En cas contrari, s'hauria de desestimar la informació perquè és corrupta o compromesa. <br>
+És 1 byte després del cos del missatge que s'ha obtingut pel node emissor mitjançant un càlcul matemàtic. Aquest número (CRC) és únic per aquesta combinació de bytes (capçalera + cos del missatge). Quan el node receptor ha rebut els bytes pel bus de dades també realitza la mateixa operació i obté un CRC. Si el CRC enviat i el calculat són el mateix, llavors vol dir que no hi ha hagut cap error de transmissió i que la informació rebuda és bona. En cas contrari, s'hauria de desestimar la informació perquè és corrupta o compromesa. <br>
 
 <dt>End of Data (EOD)</dt>
 Després del CRC, es deixa el bus en mode passiu durant 200us. Després de l'EOD, els receptors poden respondre el missatge o enviar-ne un altre de nou.
@@ -110,7 +110,7 @@ Després del CRC, es deixa el bus en mode passiu durant 200us. Després de l'EOD
 
 La informació enviada a través del bus és a base de 0s i 1s. Aquest protocol té la característica de que els 1s i 0s transmesos poden ser actius i passius.<br>
 <dt>I què vol dir això?</dt>
-Doncs que com el bus pot estar en mode actiu o passiu (explicat a dalt), podem transmetre per exemple un 1 en mode actiu o passiu, variant únicament el temps. La taula següent ho resumeix:<br>
+Doncs que com que el bus pot estar en mode actiu o passiu (explicat a dalt), podem transmetre per exemple un 1 en mode actiu o passiu, variant únicament el temps. La taula següent ho resumeix:<br>
 
 <center>
 <img style="display:inline" src="/images/Part3/06.PNG" alt="Xavier Morales"> 
@@ -122,7 +122,7 @@ Exemple amb el primer byte de la capçalera anterior (<b>0x28</b>: <b>0b</b>0010
 
 <img src="/images/Part3/08.PNG" alt="Xavier Morales">
 
-Com veieu els bits es van alternant entre actiu i passiu. Com el SOF dicta quin és el primer en començar (Actiu), el primer bit de la capçalera serà passiu i la resta ja vindrà forçada per l'alternança. Tots els bits dels bytes del missatge es transmetran començant pel bit més significatiu, és a dir, bit7, bit6,..., bit0.<br>
+Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta quin és el primer en començar (Actiu), el primer bit de la capçalera serà passiu i la resta ja vindrà forçada per l'alternança. Tots els bits dels bytes del missatge es transmetran començant pel bit més significatiu, és a dir, bit7, bit6,..., bit0.<br>
 
 <b>Nota:</b> Com veieu, un 0 Passiu sempre guanyarà a un 1 Passiu (El 0 és temporalment més curt i per tant canviarà al següent bit que tocarà ser Actiu abans i per tant l'1 haurà perdut l'arbitrarietat). El mateix passa amb el 0 Actiu, aquest és temporalment més llarg que l'1 Actiu.<br>
 
@@ -154,7 +154,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com el SOF dicta quin 
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
 <a href="/HD-tacho-part10"> Part10 </a>/
- Part11 /
+<a href="/HD-tacho-part11"> Part11 </a>/
  Part12 /
  Part13 /
  Part14 /

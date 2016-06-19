@@ -209,6 +209,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  font-size: .6rem;
 }
 
 /* Gist via GitHub Pages */
