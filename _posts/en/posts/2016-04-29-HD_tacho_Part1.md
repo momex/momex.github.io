@@ -25,8 +25,8 @@ I will divide this project in 14 parts where I will explain the different steps 
 <p>
 
 <a href="/en/HD-tacho-part1">Part 1 - Introduction </a> <br>
-Part 2 - Communication Bus and sensors <br>
-Part 3 - Harley Davidson and SAE J1850 VPW <br>
+<a href="/en/HD-tacho-part2">Part 2 - Communication Bus and sensors </a><br>
+<a href="/en/HD-tacho-part3">Part 3 - Harley Davidson and SAE J1850 VPW </a><br>
 Part 4 - Bus Messages <br>
 Part 5 - Tachometer Benchmarking<br>
 Part 6 - Design and functions <br>
