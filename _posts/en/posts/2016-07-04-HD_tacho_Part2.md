@@ -13,7 +13,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 In this second part we will focus in the motorcycle electronics and in knowing what we can/cannot use.<br>
 Nowadays, all vehicles with a minimum of technology have a communication bus that connects all different control units. The main advantadge is pretty clear, if each control unit had its own sensors, the weight and cost of the vehicle would be higher due to some sensors and harnesses would be redundant. With a communication bus, each control unit can have a mínimum of sensors attached and then broadcast the information through the bus to the other control units and in case it needs other information, find it there.<br>
 <!--more-->
-Until 2014, HD used to have a 1-wire bus communication based in the SAE J1850 VPW (Variable Pulse Width) at 10,4 kbit/s as communication protocol. In order to understand how this protocol works, please check the following<a href="en/HD-tacho-part3/"> post </a>. Since 2014, all HD use another communication bus called  <a href="https://en.wikipedia.org/wiki/Controller_area_network" target="_blank">CAN bus (Controller Area Network)</a>.
+Until 2014, HD used to have a 1-wire bus communication based in the SAE J1850 VPW (Variable Pulse Width) at 10,4 kbit/s as communication protocol. In order to understand how this protocol works, please check the following<a href="/en/HD-tacho-part3"> post </a>. Since 2014, all HD use another communication bus called  <a href="https://en.wikipedia.org/wiki/Controller_area_network" target="_blank">CAN bus (Controller Area Network)</a>.
 <p>
 
 <table>

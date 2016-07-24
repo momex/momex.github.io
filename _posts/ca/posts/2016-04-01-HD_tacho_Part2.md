@@ -13,7 +13,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 En aquesta segona part ens centrarem en l'eléctrònica de la moto i en saber què podem i què no podem utilitzar.<br>
 Pràcticament tots els vehicles d'avui dia amb un mínim de tecnologia porten un bus de dades que connecta les diferents unitats de control que existeixen. L'avantatge és ben evident, si cadascuna de les unitats de control tingués els seus propis sensors, el vehicle pesaria i costaria molt i hi hauria sensors repetits... Amb un bus de dades, cada unitat de control pot tenir un mínim de sensors associats a ella, compartir la informació mitjançant aquest bus i en cas de què necessiti més informació, pot trobar-la allà.<br>
 <!--more-->
-Fins al 2014, HD utilitzava un bus de dades d'un sol cable mitjançant el protocol de comunicació en sèrie SAE J1850 VPW (Variable Pulse Width = Pols d'Amplitud Variable) a 10,4 kbit/s. Per entendre els ets i uts d'aquest protocol consulteu el següent <a href="/HD-tacho-part3/"> post </a>. A partir del 2014, totes les HD utilitzen un altre bus de dades anomenat <a href="https://ca.wikipedia.org/wiki/Controller_area_network" target="_blank">bus CAN (Controller Area Network)</a>.
+Fins al 2014, HD utilitzava un bus de dades d'un sol cable mitjançant el protocol de comunicació en sèrie SAE J1850 VPW (Variable Pulse Width = Pols d'Amplitud Variable) a 10,4 kbit/s. Per entendre els ets i uts d'aquest protocol consulteu el següent <a href="/HD-tacho-part3"> post </a>. A partir del 2014, totes les HD utilitzen un altre bus de dades anomenat <a href="https://ca.wikipedia.org/wiki/Controller_area_network" target="_blank">bus CAN (Controller Area Network)</a>.
 <p>
 
 <table>
