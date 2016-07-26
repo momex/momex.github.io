@@ -185,15 +185,15 @@ code {
 pre {
   display: block;
   margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem;
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #f3f3f3;
 }
 pre code {
   padding: 0;
@@ -204,13 +204,16 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  border-radius: 3px;
 }
 .highlight pre {
-  margin-bottom: 0;
-  font-size: .6rem;
+  font-size: .7rem;
 }
+
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
@@ -311,8 +314,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  0rem;
+  padding-right: 0rem;
   margin-left:  auto;
   margin-right: auto;
 }
@@ -366,6 +369,8 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Meta data line below post title */
@@ -373,6 +378,8 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
   color: #9a9a9a;
 }
 
