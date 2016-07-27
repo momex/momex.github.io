@@ -16,8 +16,7 @@ keywords: Jekyll, github, github-pages, web, estàtic, instal·lació, Part4
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 
@@ -103,8 +102,7 @@ Al següent post explicarem com enllaçar un domini propi, com www.momex.cat, al
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 

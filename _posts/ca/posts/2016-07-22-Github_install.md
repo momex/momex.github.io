@@ -16,8 +16,7 @@ keywords: Jekyll, github, github-pages, web, estàtic, instal·lació, Part1
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 
@@ -38,13 +37,12 @@ Un web allotjat a <a href="https://github.com/" target="_blank">Github</a>? La i
 
 A més a més, pots instal·lar un conjunt de paquets al teu ordinador que et permetran treballar en local i previsualitzar els teus posts o pàgines abans de pujar-les al teu repositori de Github i generar així el nou contingut del teu web.<br>
 
-Dividiré aquesta entrada en 6 parts:<br>
+Dividiré aquesta entrada en 5 parts:<br>
 <a href="#Part1"><b>Part1 - Instal·lació de github-pages / jekyll a Ubuntu</b></a><br>
 <a href="/jekyll-install-part2"><b>Part2 - Creació o Clonació del web/blog</b></a><br>
 <a href="/jekyll-install-part3"><b>Part3 - Estructura de fitxers</b></a><br>
 <a href="/jekyll-install-part4"><b>Part4 - Creació d'un repositori a Github i com pujar les actualitzacions</b></a><br>
 <a href="/jekyll-install-part5"><b>Part5 - Com enllaçar el teu domini propi amb Github </b></a><br>
-<a href="/jekyll-install-part6"><b>Part6 - Multillenguatge, Google analytics, rss feed, comentaris,... </b></a><br>
 
 
 <a name="Part1"></a> 
@@ -81,8 +79,7 @@ Un cop instal·lats els paquets, ara tocarà començar a jugar amb Github i els 
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 

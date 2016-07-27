@@ -16,8 +16,7 @@ keywords: Jekyll, github, github-pages, web, estàtic, instal·lació, Part3
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 <font size="5"><b><u>Part3 - Estructura de fitxers</u></b></font>
@@ -45,7 +44,7 @@ Agafant com a referència aquest blog, l'estructura simplificada és la següent
 |   ├── 2016-04-01-HD_tacho_Part2.md
 |   └── ...
 ├── _public
-|   └── members.yml
+|   └── hyde.css
 ├── _site
 ├── blog1.xml
 ├── README.md
@@ -60,6 +59,7 @@ Agafant com a referència aquest blog, l'estructura simplificada és la següent
 <b>_includes</b>: Fitxers que poden ser mesclats amb les plantilles (o <i>layouts</i>) o posts per simplificar el codi. Per exemple, per afegir comentaris a cada entrada del blog s'han d'afegir unes línies de codi determinades. Si es crea un fitxer amb aquestes línies i es guarda dins d'aquest directori, només farà falta cridar aquest fitxer al final de cada post.<br>
 <b>_layouts</b>: Dins d'aquest directori es guarden les plantilles que formaran cadascuna de les parts del web o del blog. Les plantilles són escollides al començament de cada post o pàgina a la part superior (<i>YAML Front Matter</i>).<br>
 <b>_posts</b>: La part dinàmica del teu web estàtic. Cada vegada que s'afegeixi un fitxer en aquest directori, Jekyll reconstruirà tot el web de nou. El nom de cada fitxer ha de seguir un format específic: Any-Mes-Dia-títol.MARKUP (Per exemple:<i>2016-07-24-Github_install3.md</i>). L'URL del post (<i>permalink</i>) es pot especificar a la part superior, però la data ve determinada pel nom del fitxer.<br>
+<b>_public</b>: Dins d'aquest directori es pot posar els fitxers d'estil tals com *.css.<br>
 <b>_site</b>: en aquest directori és on el web estàtic es genera per defecte quan Jekyll finalitza el seu procés.<br>
 <b>blog1.xml</b>: Fitxer encarregat de proporcionar les noves publicacions als agregadors feed.<br>
 <b>README.md</b>: Sol ser el primer fitxer que es publica quan es crea un repositori a Github. Pot incloure una descripció del lloc web o del blog. No és ni molt menys necessari.<br>
@@ -84,8 +84,7 @@ Un cop ja coneixem l'estructura bàsica d'un web basat en github-pages / Jekyll,
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 

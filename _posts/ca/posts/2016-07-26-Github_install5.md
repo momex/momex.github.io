@@ -16,8 +16,7 @@ keywords: Jekyll, github, github-pages, web, estàtic, instal·lació, Part5
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 
@@ -62,8 +61,8 @@ momex.cat.		7200	IN	A	192.30.252.154
 git config --global user.email email
 {% endhighlight %}
 
-Al següent post (i últim, de moment) explicarem alguns consells per millorar la qualitat del blog.<br>
-<a href="/jekyll-install-part6">Seguir Part6</a>
+I amb això ja ho tenim tot per començar a jugar amb Jekyll i Github-pages. És clar que falten moltes coses per explicar, però això ja ho anireu descobrint vosaltres mateixos a mesura que ho aneu necessitant.<br>
+
 <p>
 <font size="2"> 
 Índex:
@@ -71,8 +70,7 @@ Al següent post (i últim, de moment) explicarem alguns consells per millorar l
 <a href="/jekyll-install-part2"> Part2 </a>/
 <a href="/jekyll-install-part3"> Part3 </a>/
 <a href="/jekyll-install-part4"> Part4 </a>/
-<a href="/jekyll-install-part5"> Part5 </a>/
-<a href="/jekyll-install-part6"> Part6 </a>
+<a href="/jekyll-install-part5"> Part5 </a>
 </font>
 </p>
 
