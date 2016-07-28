@@ -6,12 +6,13 @@
 {% for post in posts %}
    <a href="{{ post.url }}" {% if page.lang == post.lang %} class="{{ post.lang }} active {% endif %}">{{ post.lang }}</a>
 {% endfor %}
-      <h1>
+<br><br>
+      <h9>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
-      </h1>
-<h8><b>Els <i>geeks</i> també parlen català</b></h8>
+      </h9><br>
+<h8><b>Un món <i>geek</i> en català</b></h8>
 <br><br><br><br><br>
     </div>
     <nav class="sidebar-nav">
@@ -25,9 +26,7 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">{{ site.trans[page.lang].ghpro }}</a>
       <br>
       <a href="{{ site.baseurl }}blog{% if page.lang == "en" %}_en{% endif %}1.xml" target="_blank"><img src="/images/rss_icon.png" alt="RSS"></a>
-      <span class="sidebar-nav-item">Estudi d'interiorisme i decoració</span>
-      <a class="sidebar-nav-item" href="http://demarcasueca.com/" target="_blank">De Marca Sueca</a>
-<br>
+
 <span class="sidebar-nav-item">{{ site.trans[page.lang].search }}</span>
 <!-- my custom google search -->
 <form onsubmit="my_search_google()" >

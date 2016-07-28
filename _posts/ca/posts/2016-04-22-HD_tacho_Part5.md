@@ -26,7 +26,7 @@ La manera més fàcil de començar un projecte sempre és fer un "benchmarking",
 <font size="3">Dificultat d'instal·lació:</font><font style="display:inline" size="4"> &#9733;&#9734;&#9734;&#9734;&#9734;</font>
 <center>
 <img style="display:inline" src="/images/Part5/70900274_OB.jpeg" width="25%" alt="HD Sportster 2 en 1. Source: Harley Davidson" title="HD Sportster amb rellotge 2 en 1">
-<img style="display:inline" src="/images/Part5/70900274_gauge.JPG" width="25%" alt="Suport per velocímetre i tacòmetre Ref#: 67182-07. Source: Harley Davidson" title="Suport Ref# 67182-07">
+<img style="display:inline" src="/images/Part5/70900274_gauge.JPG" width="25%" alt="Rellotge 2 en 1. Source: Harley Davidson" title="Kit 70900274">
 </center>
 
 Una altra sol·lució que ofereix la marca si el que es vol és un sol rellotge per mostrar tota la informació. Segons les <a href="http://www.harley-davidson.com/app-content/service/isheets/-J05551.PDF" target="_blank">instruccions</a> aquest kit només porta aquest rellotge 2 en 1, així que no hi ha cap part que puguem fer servir. Tot i això tenim unes instruccions que sempre poden aportar quelcom d'informació. Tres coses a destacar: <br>
@@ -37,7 +37,7 @@ Una altra sol·lució que ofereix la marca si el que es vol és un sol rellotge 
 <li><h4>Harley Davidson - Conjunt velocímetre i tacòmetre d'una Sportster XR1200R (Preu Abril'16: 518.00 USD / HD UE - € ):</h4></li>
 <font size="3">Dificultat d'instal·lació:</font><font style="display:inline" size="4"> &#9733;&#9733;&#9734;&#9734;&#9734;</font>
 <center>
-<img style="display:inline" src="/images/Part5/XR1200R_meter.jpg" width="25%" alt="Combinació de rellotges a la HD XR1200Rr. Source: http://ridermagazine.com" title="XR1200R tacòmetre i velocímetre">
+<img style="display:inline" src="/images/Part5/XR1200R_meter.jpg" width="25%" alt="Combinació de rellotges a la HD XR1200R. Source: http://ridermagazine.com" title="XR1200R tacòmetre i velocímetre">
 <img style="display:inline" src="/images/Part5/xr1200r_67576-08.png" width="25%" alt="Tacómetre 67576-08. Source: www.befr.ebay.be" title="Tacòmetre 67576-08">
 <img style="display:inline" src="/images/Part5/xr1200r_67087-08.jpeg" width="25%" alt="Velocímetre 67087-08. Source: m.ebay.ie" title="Velocímetre 67087-08">
 </center>

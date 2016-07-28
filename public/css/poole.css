@@ -90,6 +90,17 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
 }
+h9 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+  line-height: 0.8;
+  font-size: 3.25rem;
+  color: #313131;
+  font-family: "Abril Fatface", serif;
+  text-rendering: optimizeLegibility;
+}
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -126,14 +137,15 @@ h7 {
 }
 
 h8 {
-  margin-top: 0;
-  line-height: 1;
+  margin-top: -1;
+  line-height: 0.8;
   color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 h8 {
   font-size: 0.9rem;
 }
+
 
 /* Body text */
 p {
@@ -385,7 +397,7 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0;
