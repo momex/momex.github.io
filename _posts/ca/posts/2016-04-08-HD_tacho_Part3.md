@@ -146,7 +146,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta q
 Índex de projecte:<br>
 <a href="/HD-tacho-part1">Part1 </a>/
 <a href="/HD-tacho-part2"> Part2 </a>/
-<a href="/HD-tacho-part3"> Part3 </a>/
+<b> Part3 </b>/
 <a href="/HD-tacho-part4"> Part4 </a>/
 <a href="/HD-tacho-part5"> Part5 </a>/
 <a href="/HD-tacho-part6"> Part6 </a>/
@@ -155,7 +155,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta q
 <a href="/HD-tacho-part9"> Part9 </a>/
 <a href="/HD-tacho-part10"> Part10 </a>/
 <a href="/HD-tacho-part11"> Part11 </a>/
- Part12 /
+<a href="/HD-tacho-part12"> Part12 </a>/
  Part13 /
  Part14 /
  Part15

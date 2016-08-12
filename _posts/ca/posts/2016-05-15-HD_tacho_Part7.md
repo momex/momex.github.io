@@ -100,12 +100,12 @@ L'alternativa a aquests circuits integrats és utilitzar transistors i resistèn
 <a href="/HD-tacho-part4"> Part4 </a>/
 <a href="/HD-tacho-part5"> Part5 </a>/
 <a href="/HD-tacho-part6"> Part6 </a>/
-<a href="/HD-tacho-part7"> Part7 </a>/
+<b> Part7 </b>/
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
 <a href="/HD-tacho-part10"> Part10 </a>/
 <a href="/HD-tacho-part11"> Part11 </a>/
- Part12 /
+<a href="/HD-tacho-part12"> Part12 </a>/
  Part13 /
  Part14 /
  Part15

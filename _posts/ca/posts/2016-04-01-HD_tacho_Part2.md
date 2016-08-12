@@ -60,7 +60,7 @@ El pins són: <br>
 <font size="2"> 
 Índex de projecte:<br>
 <a href="/HD-tacho-part1">Part1 </a>/
-<a href="/HD-tacho-part2"> Part2 </a>/
+<b> Part2 </b>/
 <a href="/HD-tacho-part3"> Part3 </a>/
 <a href="/HD-tacho-part4"> Part4 </a>/
 <a href="/HD-tacho-part5"> Part5 </a>/
@@ -70,7 +70,7 @@ El pins són: <br>
 <a href="/HD-tacho-part9"> Part9 </a>/
 <a href="/HD-tacho-part10"> Part10 </a>/
 <a href="/HD-tacho-part11"> Part11 </a>/
- Part12 /
+<a href="/HD-tacho-part12"> Part12 </a>/
  Part13 /
  Part14 /
  Part15

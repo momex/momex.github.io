@@ -90,10 +90,10 @@ A continuació, descarrega't els fitxers d'Altium Designer i els fitxers <i>Gerb
 <a href="/HD-tacho-part6"> Part6 </a>/
 <a href="/HD-tacho-part7"> Part7 </a>/
 <a href="/HD-tacho-part8"> Part8 </a>/
-<a href="/HD-tacho-part9"> Part9 </a>/
+ <b>Part9</b>/
 <a href="/HD-tacho-part10"> Part10 </a>/
 <a href="/HD-tacho-part11"> Part11 </a>/
- Part12 /
+<a href="/HD-tacho-part12"> Part12 </a>/
  Part13 /
  Part14 /
  Part15

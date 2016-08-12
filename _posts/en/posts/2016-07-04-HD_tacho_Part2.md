@@ -60,7 +60,7 @@ Pinout of the connector is: <br>
 <font size="2"> 
 Project Index:<br>
 <a href="/en/HD-tacho-part1">Part1 </a>/
-<a href="/en/HD-tacho-part2"> Part2 </a>/
+<b> Part2 </b>/
 <a href="/en/HD-tacho-part3"> Part3 </a>/
 <a href="/en/HD-tacho-part4"> Part4 </a>/
 <a href="/en/HD-tacho-part5"> Part5 </a>/

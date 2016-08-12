@@ -24,6 +24,7 @@ Tot aspirant d'apendre electrònica ha de tenir com a mínim una <i>protoboard</
 </center>
 
 <!--more-->
+
 ## Placa Foradada
 No havent aprés la lliçó vaig passar a les plaques foradades. El circuit era bastant complex, així que farien falta un parell de plaques com a mínim per incloure tots els components. Aquestes plaques també val la pena tenir-les pel calaix, però només per a projectes petits. Val a dir que no s'ha d'utilitzar un cable molt gruixut o es pot correr el risc d'acabar tenint un conjunt placa + cablejat massa gruixut. El cable perfecte és l'anomenat <i>wrap wire</i>, un cable molt finet que permetrà treballar amb molta més facilitat. <br>
 <b>Avantatges</b>: Et permeten tenir plaques d'electrònica funcionals en poc temps.<br>
@@ -59,9 +60,9 @@ Aquest és l'últim pas per a tot aficionat a l'electrònica que vol portar els 
 <a href="/HD-tacho-part7"> Part7 </a>/
 <a href="/HD-tacho-part8"> Part8 </a>/
 <a href="/HD-tacho-part9"> Part9 </a>/
-<a href="/HD-tacho-part10"> Part10 </a>/
+ <b>Part10</b> /
 <a href="/HD-tacho-part11"> Part11 </a>/
- Part12 /
+<a href="/HD-tacho-part12"> Part12 </a>/
  Part13 /
  Part14 /
  Part15
