@@ -149,7 +149,7 @@ Project Index:<br>
 <b> Part3 </b>/
 <a href="/en/HD-tacho-part4"> Part4 </a>/
 <a href="/en/HD-tacho-part5"> Part5 </a>/
- Part6 /
+<a href="/en/HD-tacho-part6"> Part6 </a>/
  Part7 /
  Part8 /
  Part9 /
