@@ -527,7 +527,7 @@ Fins aquí els detalls del codi. Per més detall, aneu directament al repositori
 <a href="/HD-tacho-part10"> Part10 </a>/
 <b>Part11</b> /
 <a href="/HD-tacho-part12"> Part12 </a>/
- Part13 /
+<a href="/HD-tacho-part13"> Part13 </a>/
  Part14 /
  Part15
  </font>

@@ -17,7 +17,7 @@ En aquesta part llistaré els components i circuits integrats (CI) que he utilit
 
 ### Microchip PIC18F2553<br>
 
-El <a href="http://www.microchip.com/wwwproducts/en/PIC18F2553" target="_blank">PIC18F2553</a> és el cervell del projecte. Us mentiria si digués que vaig escollir aquesta marca i model en concret per ser el que incorporava les millors prestacions en relació amb el preu. Simplement el vaig escollir perquè era la familia de MCU amb la qual vaig començar en aquest món de l'electrònica digital i era el model el qual tenia un nombre de pins suficients per poder desenvolupar el compta-revoucions que tenia al cap.<br>
+El <a href="http://www.microchip.com/wwwproducts/en/PIC18F2553" target="_blank">PIC18F2553</a> és el cervell del projecte. Us mentiria si digués que vaig escollir aquesta marca i model en concret per ser el que incorporava les millors prestacions en relació amb el preu. Simplement el vaig escollir perquè era la familia de MCU amb la qual vaig començar en aquest món de l'electrònica digital i era el model el qual tenia un nombre de pins suficients per poder desenvolupar el compta-revolucions que tenia al cap.<br>
 <!--more-->
 <center>
 <img style="display:inline" src="/images/Part7/PIC18F2553.png" width="29%" alt="PIC18F2553. Source: Microchip Technology" title="PIC18F2553">
@@ -106,7 +106,7 @@ L'alternativa a aquests circuits integrats és utilitzar transistors i resistèn
 <a href="/HD-tacho-part10"> Part10 </a>/
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
- Part13 /
+<a href="/HD-tacho-part13"> Part13 </a>/
  Part14 /
  Part15
  </font>
