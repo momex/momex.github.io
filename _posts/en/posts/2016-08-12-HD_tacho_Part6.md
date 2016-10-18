@@ -6,7 +6,7 @@ comments: true
 title: Digital Tachometer for Harley Davidson Sportster (Part 6 - Design and functions)
 name: HD-tacho-part6
 permalink: en/HD-tacho-part6
-category: tacho
+category: ENtacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, design, functions
 ---
 

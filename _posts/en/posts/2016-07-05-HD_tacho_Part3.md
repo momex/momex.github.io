@@ -36,7 +36,7 @@ In this kind of buses everybody will be able to transmit, for this reason it is 
 <b>2-</b> Once it is transmitting the message, in case the bit transmitted is not the same as the bit it reads from the bus, automatically it has to stop the transmission because it lost arbitrariety. This means that other node is also transmitting a message with higher priority.
 </dl>
 
-<img src="/images/Part3/02.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/02.PNG" alt="Source: Momex.cat">
 
 <dt>And how is this message priority defined?</dt>
 Everything is managed by voltage levels. As said before, the bus is passive in natural status and therefore the nodes only have activate o deactivate the transistor in order to change the bus to active or passive mode. If one node is transmitting a passive bit but it reads an active bus, this means that some other node is transmitting at the same time.
@@ -46,7 +46,7 @@ Messages with higher priority will be then those with more active bits at the be
 
 ### Message structure:
 Structure of a Harley Davidson message:
-<img src="/images/Part3/01.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/01.PNG" alt="Source: Momex.cat">
 
 With this format, the maximum number of bytes is set to 11.<br>
 
@@ -56,17 +56,17 @@ The node starting to transmit has to start with an active bit during 200us. Afte
 <dt>Header</dt>
 It can be set from 1 to 3 bytes. In the case of Harley Davidson we will find 3 bytes:<br>
 <dd><b>Byte #1:</b> It will show to the other nodes the Header configuration (e.g.: 1 o 3 bytes)<br>
-<img src="/images/Part3/03.PNG" alt="Source: Xavier Morales"></dd>
+<img src="/images/Part3/03.PNG" alt="Source: Momex.cat"></dd>
 <dd><b>Byte #2:</b> Target address or Primary ID. This value will be available in the SAE J2178-4 and it can be a Command ID or a Status ID.</dd>
 <dd><b>Byte #3:</b> Source address</dd>
 
 Header byte#1 meaning:<br>
-<img src="/images/Part3/04.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/04.PNG" alt="Source: Momex.cat">
 
 <br>
 Example (RPM: $28 $1B $10)<br>
 <b>$28</b>
-<img src="/images/Part3/05.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/05.PNG" alt="Source: Momex.cat">
 
 <dl>
 <dd>001: Value close to high priority </dd>
@@ -113,14 +113,14 @@ Broadcasted information through the bus is based in 0s and 1s. This protocol has
 It means that as the bus can be in active or passive mode (as explained above), nodes can transmit for example a 1 in active mode or in passive mode by changing only the transmiting time. Following table summarizes it:<br>
 
 <center>
-<img style="display:inline" src="/images/Part3/06.PNG" alt="Source: Xavier Morales"> 
-<img style="display:inline" src="/images/Part3/07.PNG" alt="Source: Xavier Morales">
+<img style="display:inline" src="/images/Part3/06.PNG" alt="Source: Momex.cat"> 
+<img style="display:inline" src="/images/Part3/07.PNG" alt="Source: Momex.cat">
 </center>
 <br>
 
 Example using the same 1st byte of the previous header (<b>0x28</b>: <b>0b</b>00101000):
 
-<img src="/images/Part3/08.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/08.PNG" alt="Source: Momex.cat">
 
 As you can see, the bits alterante every time between active and passive. As the SOF forces the first state (active), the first bit of the header will be passive and the rest will start alternating. All the bits within the bytes of the message will be transmitted starting by the most significant bit, this means bit7, bit6,..., bit0.<br>
 
@@ -128,7 +128,7 @@ As you can see, the bits alterante every time between active and passive. As the
 
 <h3>Specification tables</h3>
 
-<img src="/images/Part3/09.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/09.PNG" alt="Source: Momex.cat">
 
 <h3> Physical Layer:</h3>
 - 1-wire bus used to transmit 1s and 0s at a specified speed of 10,4 Kb/s through VPW. <br>
@@ -138,7 +138,7 @@ As you can see, the bits alterante every time between active and passive. As the
 - Maximum number of bytes in the message body: 12 <br>
 <br>
 
-<img src="/images/Part3/10.PNG" alt="Source: Xavier Morales">
+<img src="/images/Part3/10.PNG" alt="Source: Momex.cat">
 
 
 <p>

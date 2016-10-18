@@ -46,7 +46,7 @@ En una HD Sportster (2007-2013) hi trobem les ECUs (Unitats de Control Electròn
 
 En aquest projecte ens centrarem bàscicament en la informació enviada per la ECM ja que ens proporcionarà les RPM i la marxa actual. Per accedir al bus J1850 VPW utilitzarem el connector (Data Link Connector) que hi ha sota la tapa de la bateria (lateral posterior esquerre).<p>
 
-<center><img src="/images/Part2/4pinconnector.png"  alt="Contingut: HD Data Link Connector. Source: Xavier Morales"></center>
+<center><img src="/images/Part2/4pinconnector.png"  alt="Contingut: HD Data Link Connector. Source:Momex.cat"></center>
 
 El pins són: <br>
 1- <br>

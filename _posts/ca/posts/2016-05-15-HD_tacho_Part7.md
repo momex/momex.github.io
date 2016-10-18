@@ -11,7 +11,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, compo
 ---
 
 En aquesta part llistaré els components i circuits integrats (CI) que he utilitzat. A continuació teniu un diagrama bàsic del circuit (l'esquemàtic sencer detallat vindrà a la secció posterior).<br>
-<center><img src="/images/Part7/schematic1.PNG" width="80%" alt="Diagrama bàsic del circuit. Source: Xavier Morales" title="Diagrama bàsic del circuit"></center>
+<center><img src="/images/Part7/schematic1.PNG" width="80%" alt="Diagrama bàsic del circuit. Source: Momex.cat" title="Diagrama bàsic del circuit"></center>
 
 <font size="3"><b>Nota</b>: El Digit3 s'alternarà amb la barra de revolucions. En el mode RPM es veuran tots 4 dígits però en la resta de modes el Digit3 romandrà OFF i serà la barra la que mostarà les RPM. La resta de modes poden funcionar amb només 3 dígits.</font>
 
@@ -57,11 +57,11 @@ Característiques principals:<br>
 - <b>Control de lluminositat</b>: Aquest CI té 1 pin (#19) específic per regular la lluminositat de tots els pins. Amb un senyal PWM del PIC i una resistència podrem regular la lluminositat digitalment variant el DC (<a href="https://en.wikipedia.org/wiki/Duty_cycle" target="_blank">Duty cycle</a>) del senyal PWM.<br>
 
 - <b>Serial Data input</b>: Els 34 inputs d'aquest <i>LED driver</i> es controlen mitjançant 2 pins; un senyal de rellotge (CLK) i un senyal de data (DATA). 
-<center><img style="display:inline" src="/images/Part7/MM5450_CLK_DATA.PNG" width="60%" alt="Senyals DATA i CLK. Source: Xavier Morales" title="Senyals DATA i CLK"></center>
+<center><img style="display:inline" src="/images/Part7/MM5450_CLK_DATA.PNG" width="60%" alt="Senyals DATA i CLK. Source: Momex.cat" title="Senyals DATA i CLK"></center>
 L'MM5450 sempre espera 36 senyals de rellotge (flancs de pujada). En el primer, verificarà que el senyal al pin DATA sigui de valor alt. Si és així, començarà a guardar els valors de DATA que llegeixi a mesura que rebi els 35 <i>clocks</i> següents. Un cop rebi l'últim <i>clock</i> (a l'MM5450 amb només 34 pins operatius, el valor llegit al 35è flanc de pujada no es considerarà, però s'ha d'enviar igualment) el CI volcarà els valors a les sortides i tornarà a esperar els 36 nous valors següents.<br>
 
 - <b>34 pins</b>: El següent diagrama mostra com s'utilitzaran tots els pins de l'MM5450. L'alternativa seria la de multiplexar els 7-Segments, això em portaria a consumir 12 pins en comptes de 29, però per causes que explicaré a la Part 14 (Problemes durant el projecte) vaig optar per aquesta configuració.<br>
-<center><img style="display:inline" src="/images/Part7/MM5450_non_multi.PNG" width="80%" alt="Diagrama de connexió. Source: Xavier Morales" title="Diagrama de connexió"></center>
+<center><img style="display:inline" src="/images/Part7/MM5450_non_multi.PNG" width="80%" alt="Diagrama de connexió. Source: Momex.cat" title="Diagrama de connexió"></center>
 </dl>
 
 ### LM340T-5.0/NOPB<br>
@@ -74,18 +74,18 @@ Característiques:<br>
 
 ### Trasnceiver
 Per poder llegir els senyals del bus J1850 necessitem primer adaptar els nivells de tensió entre el bus i el PIC. Hi ha circuits integrats com  el <a href="http://www.nxp.com/files/analog/doc/data_sheet/MC33990.pdf" target="_blank">MC33990</a> (NXP Feescale Semiconductor) o <a href="http://alt.ife.tugraz.at/datashts/Harris/hip7020.pdf" target="_blank">HIP7020</a> (HARRIS Semiconductor), però al ser una tecnologia tan antiga estan descatalogats i trobar-los no és tasca fàcil.
-<center><img style="display:inline" src="/images/Part7/MC33990_chip.PNG" width="20%" alt="MC33990 Source: Xavier Morales" title="LM340T-5V">
-<img style="display:inline" src="/images/Part7/j1850_chip_comparison.PNG" width="70%" alt="MC33990 i HIP7020 Source: Xavier Morales" title="MC33990 i HIP7020 pinout"></center>
+<center><img style="display:inline" src="/images/Part7/MC33990_chip.PNG" width="20%" alt="MC33990 Source: Momex.cat" title="LM340T-5V">
+<img style="display:inline" src="/images/Part7/j1850_chip_comparison.PNG" width="70%" alt="MC33990 i HIP7020 Source: Momex.cat" title="MC33990 i HIP7020 pinout"></center>
 
  No obstant, actualment utilitzo el MC33990 per enviar senyals de marxa i revolucions fictícies a un bus J1850 que uneix aquesta unitat de control amb el compta-revolucions, d'aquesta manera puc introduir millores sense necessitat d'anar físicament a la moto.<br>
 <center>
-<img style="display:inline" src="/images/Part7/MC33990_sch.PNG" width="49%" alt="MC33990 Diagrama Source: Xavier Morales" title="Diagrama de MC33990">
-<img style="display:inline" src="/images/Part7/MC33990_osc.png" width="49%" alt="Forma dels senyals amb MC33990 Source: Xavier Morales" title="Forma dels senyals amb MC33990">
+<img style="display:inline" src="/images/Part7/MC33990_sch.PNG" width="49%" alt="MC33990 Diagrama Source: Momex.cat" title="Diagrama de MC33990">
+<img style="display:inline" src="/images/Part7/MC33990_osc.png" width="49%" alt="Forma dels senyals amb MC33990 Source: Momex.cat" title="Forma dels senyals amb MC33990">
 </center>
 
 L'alternativa a aquests circuits integrats és utilitzar transistors i resistències per adaptar els nivells entre el bus i el PIC. Com només necessitarem llegir del bus, el circuit quedarà molt simplificat tal i com es pot veure a la imatge inferior. Un detall a destacar és veure com canvien els nivells de voltage a mesura que avancem pel circuit i com queden invertits al final (veieu la captura de l'oscil·loscopi per etendre-ho millor). Si es vol utilitzar el mateix codi que amb el MC33990, a nivell de software només s'haurà d'invertir el valor de l'entrada al PIC amb un "!" i el més important, canviar el tipus d'interrupció per una de tipus "flanc de baixada".
 <center>
-<img style="display:inline" src="/images/Part7/transceiver_levels.PNG" width="49%" alt="Diagrama transceiver Source: Xavier Morales" title="Diagrama transceiver">
+<img style="display:inline" src="/images/Part7/transceiver_levels.PNG" width="49%" alt="Diagrama transceiver Source: Momex.cat" title="Diagrama transceiver">
 <img style="display:inline" src="/images/Part7/transceiver.png" width="49%" alt="Forma dels senyals Source: desconegut" title="Forma dels senyals a l'oscil·loscopi">
 </center>
 <br>

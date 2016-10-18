@@ -23,7 +23,7 @@ Després de veure què és el que més m'ha agradat de l'estudi de mercat, què 
 
 La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><center>
 <img style="display:inline" src="/images/Part6/proto-disseny1.png" width="30%" alt="HD Sportster Tacòmetre. Source: Harley Davidson" title="HD Sportster amb doble rellotge">
-<img style="display:inline" src="/images/Part6/proto-disseny.jpg" width="40%" alt="Esbós. Source: Xavier Morales" title="Esbós">
+<img style="display:inline" src="/images/Part6/proto-disseny.jpg" width="40%" alt="Esbós. Source: Momex.cat" title="Esbós">
 </center>
 <!--more-->
 

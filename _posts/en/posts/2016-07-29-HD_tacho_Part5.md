@@ -6,7 +6,7 @@ comments: true
 title: Digital Tachometer for Harley Davidson Sportster (Part 5 - Tachometer Benchmarking)
 name: HD-tacho-part5
 permalink: en/HD-tacho-part5
-category: tacho
+category: ENtacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, benchmarking, mercat
 ---
 

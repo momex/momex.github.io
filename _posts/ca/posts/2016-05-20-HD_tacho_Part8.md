@@ -16,7 +16,7 @@ Fins ara, tot el que hem fet ha estat investigar sobre el protocol SAE J1850, ce
 Per fer-ho utilitzarem <i>softwares</i> de disseny electrònic específics com els que podem trobar en aquesta <a href="https://en.wikipedia.org/wiki/Comparison_of_EDA_software" target="_blank">llista</a>. En el meu cas, he utilitzat l'Altium Designer.<br>
 A continuació teniu l'esquemàtic (<a href="/images/Part8/Schematic.pdf" target="_blank">PDF</a> / <a href="/images/Part9/J1850_Tacho.SchDoc"> Altium </a>):<br>
 
-<center><img src="/images/Part8/tachometer_schematics.PNG"  alt="Contingut: Esquemàtic Tacòmetre Harley J1850. Source: Xavier Morales"></center>
+<center><img src="/images/Part8/tachometer_schematics.PNG"  alt="Contingut: Esquemàtic Tacòmetre Harley J1850. Source: Momex.cat"></center>
 
 I el llistat de components o BOM (<i>Bill Of Materials</i>): <br>
 <!--more-->

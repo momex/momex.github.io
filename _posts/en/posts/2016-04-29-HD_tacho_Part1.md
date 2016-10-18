@@ -13,9 +13,9 @@ keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, introduction
 While driving a vehicle we all have in mind at least a couple of basic indicators that will give us an idea of the speed and the engine RPMs. In trucks or passenger cars it is common to have more information but in a motorcycle, due to the available space, there is a limitation of info. We can find some models that have 2 gauges with the speedo and a tachometer and other models with one gauge and a LCD to show the speed.<br>
 If we look at cheaper bikes or engines that don't rev up too much, everything gets much simpler. The indicators of a Harley Davidson Sportster are very basic, you can find a speedo gauge, some tell tales (fuel, engine check, ...) and a small LCD display to show the odometer, two partials and the current time. 
 <p>
-<!--more-->
 
-<center><img src="/images/Part1/meter.png" alt="Contingut: HD Sportster speedometer. Source: Xavier Morales"></center>
+
+<center><img src="/images/Part1/meter.png" alt="Contingut: HD Sportster speedometer. Source: Momex.cat"></center>
 
 For a person obsessed with control like me, this ammount of information was obviously not enough, so I decided to start a long term project (almost took me 4 years) in order to design some kind of display to give me some extra information like engine RPMs and gear engaged.<sub>(1)</sub>. <p>
 
@@ -41,3 +41,5 @@ Part 14 - Problems during the project <br>
 
 <p>
 <sub>(1) Have you ever been riding in 5th gear and tried to upshift when there is no 6th?</sub>
+
+<!--more-->

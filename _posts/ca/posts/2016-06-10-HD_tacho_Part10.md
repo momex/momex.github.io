@@ -18,9 +18,9 @@ Tot aspirant d'apendre electrònica ha de tenir com a mínim una <i>protoboard</
 <b>Desavantatges</b>: Problemes de connexionat (intermitències, desconnexions involuntàries, curtcircuits,..) que et poden fer perdre dies fins entendre si hi ha un cable que fa mal contacte o és que hi ha una errada al codi. No recomanat per a circuits complexes.<br>
 
 <u><b>Imatges</b></u>
-<center><img style="display:inline" src="/images/Part10/PB1.jpg" width="18%" alt="Contingut: Protoboard inicial. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PB2.jpg" width="39%" alt="Contingut: Protoboard amb font d'alimentació i oscil·loscopi. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PB3.jpg" width="40%" alt="Contingut: Embolic de cables a la protoboard. Source: Xavier Morales">
+<center><img style="display:inline" src="/images/Part10/PB1.jpg" width="18%" alt="Contingut: Protoboard inicial. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PB2.jpg" width="39%" alt="Contingut: Protoboard amb font d'alimentació i oscil·loscopi. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PB3.jpg" width="40%" alt="Contingut: Embolic de cables a la protoboard. Source: Momex.cat">
 </center>
 
 <!--more-->
@@ -31,9 +31,9 @@ No havent aprés la lliçó vaig passar a les plaques foradades. El circuit era 
 <b>Desavantatges</b>: Com abans, si el sistema és complex, pots tenir problemes de connexionat que et poden fer perdre dies fins entendre l'origen. No recomanat per a circuits complexes.<br>
 
 <u><b>Imatges</b></u>
-<center><img style="display:inline" src="/images/Part10/PF2.jpg" width="18%" alt="Contingut: Visió frontal. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PF3.jpg" width="39%" alt="Contingut: Visió posterior amb cables massa gruixuts. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PF4.jpg" width="40%" alt="Contingut: Funcionament. Source: Xavier Morales">
+<center><img style="display:inline" src="/images/Part10/PF2.jpg" width="18%" alt="Contingut: Visió frontal. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PF3.jpg" width="39%" alt="Contingut: Visió posterior amb cables massa gruixuts. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PF4.jpg" width="40%" alt="Contingut: Funcionament. Source: Momex.cat">
 </center>
 
 ## PCB
@@ -42,10 +42,10 @@ Aquest és l'últim pas per a tot aficionat a l'electrònica que vol portar els 
 <b>Desavantatges</b>: la quantitat de temps per tenir la placa acabada serà més llarg, encara que hi haurà alguna persona capaç de fer <i>PCB</i>s com xurros que estarà en contra d'aquesta afirmació.<br>
 
 <u><b>Imatges</b></u>
-<center><img style="display:inline" src="/images/Part10/PCB1.jpg" width="13%" alt="Contingut: PCB abans de soldar. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PCB2.jpg" width="27%" alt="Contingut: PCB amb tots els elements soldats. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PCB3.jpg" width="27%" alt="Contingut: Part posterior de la PCB. Source: Xavier Morales">
-<img style="display:inline" src="/images/Part10/PCB4.jpg" width="30%" alt="Contingut: Tacòmetre funcionant. Source: Xavier Morales">
+<center><img style="display:inline" src="/images/Part10/PCB1.jpg" width="13%" alt="Contingut: PCB abans de soldar. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PCB2.jpg" width="27%" alt="Contingut: PCB amb tots els elements soldats. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PCB3.jpg" width="27%" alt="Contingut: Part posterior de la PCB. Source: Momex.cat">
+<img style="display:inline" src="/images/Part10/PCB4.jpg" width="30%" alt="Contingut: Tacòmetre funcionant. Source: Momex.cat">
 </center>
 
 <p>

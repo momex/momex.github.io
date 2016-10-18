@@ -46,7 +46,7 @@ In a HD Sportster (2007-2013) we can find the following ECUs (Electronic Control
 
 In this project we will be focus only in the information broadcasted by ECM because it will give us the RPMs and the current gear. In order to access the J1850 VPW bus we will use the DLC (Data Link Connector), located under the battery cover (rear left side).<p>
 
-<center><img src="/images/Part2/4pinconnector.png"  alt="Content: HD Data Link Connector. Source: Xavier Morales"></center>
+<center><img src="/images/Part2/4pinconnector.png"  alt="Content: HD Data Link Connector. Source: Momex.cat"></center>
 
 Pinout of the connector is: <br>
 1- <br>

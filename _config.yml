@@ -38,7 +38,8 @@ trans:
     search: "Buscar a momex.cat:"
     arxiu: "Arxiu"
     cont: "Contacte"
-    ghpro: "Projecte GitHub"
+    ghpro: "Projecte web GitHub"
+    tachoHD: "Tacòmetre Harley Davidson"
     tagline: "Projectes d'electrònica i altres"
     seguiu: "...Seguiu llegint"
   en:
@@ -50,5 +51,6 @@ trans:
     arxiu: "Archive"
     cont: "Contact"
     ghpro: "GitHub project"
+    tachoHD: "Tachometer Harley Davidson"
     tagline: "Electronic projects and others"
     seguiu: "...Read more"

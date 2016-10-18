@@ -36,7 +36,7 @@ En aquest tipus de busos tothom podrà parlar quan vulgui i per això s'ha d'est
 <b>2-</b> Un cop està transmetent el missatge, en el cas en que el bit que està transmetent no sigui el mateix que el que s'està transmetent al bus, automàticament pararà ja que ha perdut l'arbitrarietat. Això vol dir que un altre node està transmetent un missatge que té més prioritat que el seu.
 </dl>
 
-<img src="/images/Part3/02.PNG" alt="Xavier Morales">
+<img src="/images/Part3/02.PNG" alt="Source: Momex.cat">
 
 <dt>I com es defineix la prioritat dels missatges?</dt>
 Tot es resol físicament. Com ja hem dit, el bus està en estat natural en mode passiu i per tant, els nodes només han d'activar o desactivar el transistor per posar el bus en mode actiu o passiu. Si un node està transmetent un bit passiu però llegeix que el bus està actiu, això vol dir que algun altre node està parlant a la vegada.
@@ -46,7 +46,7 @@ Els missatges amb més prioritat seran per tant aquells amb més bits actius al 
 
 ### Composició d'un missatge:
 Parts d'un missatge típic a Harley Davidson:
-<img src="/images/Part3/01.PNG" alt="Xavier Morales">
+<img src="/images/Part3/01.PNG" alt="Source: Momex.cat">
 
 Amb aquest format el màxim número de bytes que es pot enviar al cos del missatge és d'11.<br>
 
@@ -56,17 +56,17 @@ El node que vulgui començar a transmetre un missatge ha de començar amb un bit
 <dt>Header (Capçalera)</dt>
 Pot estar composta des d'un fins a tres bytes. En el cas particular d'HD hi trobarem 3 bytes:<br>
 <dd><b>Byte #1:</b> Indicarà als altres nodes la configuració de la capçalera (p.exemple: 1 o 3 bytes)<br>
-<img src="/images/Part3/03.PNG" alt="Xavier Morales"></dd>
+<img src="/images/Part3/03.PNG" alt="Source: Momex.cat"></dd>
 <dd><b>Byte #2:</b> Adreça Objectiu o ID primari. Aquest valor el trobarem a la SAE J2178-4 i pot ser un Command ID o un Status ID.</dd>
 <dd><b>Byte #3:</b> Adreça Origen</dd>
 
 Significat del byte#1 de la capçalera:<br>
-<img src="/images/Part3/04.PNG" alt="Xavier Morales">
+<img src="/images/Part3/04.PNG" alt="Source: Momex.cat">
 
 <br>
 Exemple (RPM: $28 $1B $10)<br>
 <b>$28</b>
-<img src="/images/Part3/05.PNG" alt="Xavier Morales">
+<img src="/images/Part3/05.PNG" alt="Source: Momex.cat">
 
 <dl>
 <dd>001: Valor proper a alta prioritat </dd>
@@ -113,14 +113,14 @@ La informació enviada a través del bus és a base de 0s i 1s. Aquest protocol 
 Doncs que com que el bus pot estar en mode actiu o passiu (explicat a dalt), podem transmetre per exemple un 1 en mode actiu o passiu, variant únicament el temps. La taula següent ho resumeix:<br>
 
 <center>
-<img style="display:inline" src="/images/Part3/06.PNG" alt="Xavier Morales"> 
-<img style="display:inline" src="/images/Part3/07.PNG" alt="Xavier Morales">
+<img style="display:inline" src="/images/Part3/06.PNG" alt="Source: Momex.cat"> 
+<img style="display:inline" src="/images/Part3/07.PNG" alt="Source: Momex.cat">
 </center>
 <br>
 
 Exemple amb el primer byte de la capçalera anterior (<b>0x28</b>: <b>0b</b>00101000):
 
-<img src="/images/Part3/08.PNG" alt="Xavier Morales">
+<img src="/images/Part3/08.PNG" alt="Source: Momex.cat">
 
 Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta quin és el primer en començar (Actiu), el primer bit de la capçalera serà passiu i la resta ja vindrà forçada per l'alternança. Tots els bits dels bytes del missatge es transmetran començant pel bit més significatiu, és a dir, bit7, bit6,..., bit0.<br>
 
@@ -128,7 +128,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta q
 
 <h3>Taules d'especificació</h3>
 
-<img src="/images/Part3/09.PNG" alt="Xavier Morales">
+<img src="/images/Part3/09.PNG" alt="Source: Momex.cat">
 
 <h3> Capa física:</h3>
 - El bus serà d'1 cable pel qual es transmetrà informació (1s i 0s) a una velocitat de 10,4 Kb/s mitjançant Pulsos d'Amplada Variable. <br>
@@ -138,7 +138,7 @@ Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta q
 - Màxim número de bytes al cos del missatge: 12 <br>
 <br>
 
-<img src="/images/Part3/10.PNG" alt="Xavier Morales">
+<img src="/images/Part3/10.PNG" alt="Source: Momex.cat">
 
 
 <p>
