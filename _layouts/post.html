@@ -8,6 +8,8 @@ layout: default
   {{ content }}
 </div>
 
+<font size="3"><b>keywords:</b> {{ page.keywords }}</font>
+
 {% assign cat = page.category %}
 <div class="related">
   <h2>{{ site.trans[page.lang].related }}: {{ cat }}</h2>
