@@ -9,7 +9,25 @@ permalink: en/HD-tacho-part5
 category: ENtacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, benchmarking, mercat
 ---
-
+<p>
+<font size="2"> 
+<a href="/en/HD-tacho-part1">Part1 </a>/
+<a href="/en/HD-tacho-part2"> Part2 </a>/
+<a href="/en/HD-tacho-part3"> Part3 </a>/
+<a href="/en/HD-tacho-part4"> Part4 </a>/
+<b> Part5 </b>/
+<a href="/en/HD-tacho-part6"> Part6 </a>/
+ Part7 /
+ Part8 /
+ Part9 /
+ Part10 /
+ Part11 /
+ Part12 /
+ Part13 /
+ Part14 /
+ Part15
+ </font>
+</p>
 Easiest way to start a project is always doing a benchmarking or market analysis. Doing this, we will be able to know what do we want, how do we want it and if we can reduce the complexity of the project by using already existing components. <br>
 <li><h4>Harley Davidson - Analog tachometer Kit 67182-07 (Price April'16: HD USA 337 USD / HD UE 524 €):</h4></li>
 <font size="3">Installation Dificulty:</font><font style="display:inline" size="4"> &#9733;&#9733;&#9734;&#9734;&#9734;</font>

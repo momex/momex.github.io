@@ -9,7 +9,25 @@ permalink: en/HD-tacho-part3
 category: ENtacho
 keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, VPW, specification
 ---
-
+<p>
+<font size="2"> 
+<a href="/en/HD-tacho-part1">Part1 </a>/
+<a href="/en/HD-tacho-part2"> Part2 </a>/
+<b> Part3 </b>/
+<a href="/en/HD-tacho-part4"> Part4 </a>/
+<a href="/en/HD-tacho-part5"> Part5 </a>/
+<a href="/en/HD-tacho-part6"> Part6 </a>/
+ Part7 /
+ Part8 /
+ Part9 /
+ Part10 /
+ Part11 /
+ Part12 /
+ Part13 /
+ Part14 /
+ Part15
+ </font>
+</p>
 The best and shortest way to understand this protocol is to read<a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank"> this document</a>. The longest way is to read directly the SAE J1850 documentation. Nevertheless, in this post I will try to summarize the most relevant concepts of this protocol in order to be able to write the proper code to receive and interpret the ECM messages.<br>
 
 According to the standard SAE J1850 VPW, in our bike we will have 1-wire data bus where the information will be broadcasted based on different voltage levels and tranmission timings. These levels are: <br>

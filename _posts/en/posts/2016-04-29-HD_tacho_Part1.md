@@ -42,4 +42,3 @@ Part 14 - Problems during the project <br>
 <p>
 <sub>(1) Have you ever been riding in 5th gear and tried to upshift when there is no 6th?</sub>
 
-<!--more-->

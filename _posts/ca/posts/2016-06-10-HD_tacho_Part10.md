@@ -9,7 +9,25 @@ permalink: HD-tacho-part10
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, PCB, disseny, prototips, evolució
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<a href="/HD-tacho-part8"> Part8 </a>/
+<a href="/HD-tacho-part9"> Part9 </a>/
+ <b>Part10</b> /
+<a href="/HD-tacho-part11"> Part11 </a>/
+<a href="/HD-tacho-part12"> Part12 </a>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 Aprofito aquesta entrada per guanyar una mica de temps i així acabar de retocar el codi. A continuació, mostraré les diferents fases del projecte amb els prototips amb els que vaig anar desenvolupant el codi font del tacòmetre. Com veureu, cadascuna de les plataformes de prototipatge té les seves avantatges i desavantatges.<br>
 
 ## <i>Protoboard</i>
@@ -64,7 +82,7 @@ Aquest és l'últim pas per a tot aficionat a l'electrònica que vol portar els 
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>

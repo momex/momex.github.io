@@ -9,7 +9,25 @@ permalink: HD-tacho-part12
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, FreeCAD, carcassa, suports
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<a href="/HD-tacho-part8"> Part8 </a>/
+<a href="/HD-tacho-part9"> Part9 </a>/
+<a href="/HD-tacho-part10"> Part10 </a>/
+<a href="/HD-tacho-part11"> Part11 </a>/
+<b> Part12 </b>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 Llistat d'elements que formaran la carcassa i suport del tacòmetre i velocímetre:
 
 <b>1-Suport pels dos rellotges</b> (ref#: 67338-97) (vist a la <a href="/HD-tacho-part5">Part5</a>)
@@ -125,7 +143,7 @@ I finalment, aquí teniu unes imatges amb els resultats.
 <a href="/HD-tacho-part11"> Part11 </a>/
 <b> Part12 </b>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>

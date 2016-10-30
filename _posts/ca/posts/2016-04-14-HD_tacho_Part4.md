@@ -9,7 +9,25 @@ permalink: HD-tacho-part4
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, missatges, ID, capçalera
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<b> Part4 </b>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<a href="/HD-tacho-part8"> Part8 </a>/
+<a href="/HD-tacho-part9"> Part9 </a>/
+<a href="/HD-tacho-part10"> Part10 </a>/
+<a href="/HD-tacho-part11"> Part11 </a>/
+<a href="/HD-tacho-part12"> Part12 </a>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 ### Missatges i capçaleres:
 Les següents taules recullen els missatges que circulen pel bus J1850 VPW d'una Sportster Iron (XL883N) de l'any 2011 per a cadascuna de les ECUs presents (Motor, Display i Body Controller). La informació l'he obtinguda de:<br>
 - SAE J2178-4.<br>
@@ -461,7 +479,7 @@ Nota2: l'últim byte dels missatges sempre serà el CRC (no l'he representat a l
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>

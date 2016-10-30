@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.lang == "en" %}<a href="{{ site.baseurl }}{% if page.lang == "en" %}en{% endif %}"><font size="2">en</font></a> &#8594; {% endif %}
+{% if page.lang == "ca" %}<a href="{{ site.baseurl }}"><font size="2">ca</font></a> &#8594; {% endif %}
+<a href="{{ site.baseurl }}{% if page.lang == "en" %}en{% endif %}"><font size="2">Home </font></a>&#8594; 
+{% if page.category == "tacho" %}<a href="{{ site.baseurl }}tachometerHD"><font size="2">tachometerHD</font></a> &#8594; {% endif %}
+{% if page.category == "ENtacho" %}<a href="{{ site.baseurl }}{% if page.lang == "en" %}en{% endif %}/tachometerHD"><font size="2">tachometerHD</font></a> &#8594; {% endif %}
+<font size="2">{{ page.url | remove: '/en/' | remove:'/' }}</font>
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>

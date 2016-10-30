@@ -9,7 +9,25 @@ permalink: HD-tacho-part5
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, benchmarking, mercat
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<b> Part5 </b>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<a href="/HD-tacho-part8"> Part8 </a>/
+<a href="/HD-tacho-part9"> Part9 </a>/
+<a href="/HD-tacho-part10"> Part10 </a>/
+<a href="/HD-tacho-part11"> Part11 </a>/
+<a href="/HD-tacho-part12"> Part12 </a>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 La manera més fàcil de començar un projecte sempre és fer un "benchmarking", és a dir, una anàlisi del mercat. D'aquesta manera sabrem què volem, com ho volem i si podem reduir la complexitat del projecte utilitzant peces ja productives. <br>
 <li><h4>Harley Davidson - Kit de tacòmetre 67182-07 (Preu Abril'16: HD USA 337 USD / HD UE 524 €):</h4></li>
 <font size="3">Dificultat d'instal·lació:</font><font style="display:inline" size="4"> &#9733;&#9733;&#9734;&#9734;&#9734;</font>
@@ -110,7 +128,7 @@ Rellotges petits amb sol·lució de 3 cables (Ign, ground i senyal de la bobina 
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>

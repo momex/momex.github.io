@@ -9,7 +9,25 @@ permalink: HD-tacho-part8
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, esquemàtic, BOM
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<b> Part8 </b>/
+<a href="/HD-tacho-part9"> Part9 </a>/
+<a href="/HD-tacho-part10"> Part10 </a>/
+<a href="/HD-tacho-part11"> Part11 </a>/
+<a href="/HD-tacho-part12"> Part12 </a>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 I ja arribem a la 8a part, l'esquemàtic. <br>
 Fins ara, tot el que hem fet ha estat investigar sobre el protocol SAE J1850, cercar al web quins components hi ha disponibles i pensar com montar més o menys el tacòmetre. Ara toca començar la part pràctica, és a dir, començar definint l'esquemàtic per després dissenyar la PCB (<i>Printed Circuit Board</i>).<br>
 
@@ -238,7 +256,7 @@ I el llistat de components o BOM (<i>Bill Of Materials</i>): <br>
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>

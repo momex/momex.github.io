@@ -9,7 +9,25 @@ permalink: HD-tacho-part9
 category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, PCB, disseny, Altium
 ---
-
+<p>
+<font size="2"> 
+<a href="/HD-tacho-part1">Part1 </a>/
+<a href="/HD-tacho-part2"> Part2 </a>/
+<a href="/HD-tacho-part3"> Part3 </a>/
+<a href="/HD-tacho-part4"> Part4 </a>/
+<a href="/HD-tacho-part5"> Part5 </a>/
+<a href="/HD-tacho-part6"> Part6 </a>/
+<a href="/HD-tacho-part7"> Part7 </a>/
+<a href="/HD-tacho-part8"> Part8 </a>/
+ <b>Part9</b>/
+<a href="/HD-tacho-part10"> Part10 </a>/
+<a href="/HD-tacho-part11"> Part11 </a>/
+<a href="/HD-tacho-part12"> Part12 </a>/
+<a href="/HD-tacho-part13"> Part13 </a>/
+<a href="/HD-tacho-part14"> Part14 </a>/
+ Part15
+ </font>
+</p>
 Sense ànim d'ésser un tutorial, en aquesta 9a part mostraré una sèrie de passos que vaig seguir per realitzar el disseny de la <i>PCB</i> (<i>Printed Circuit Board</i> o Placa de Circuit Imprès).<br>
 
 <b>1)</b> Tant per fer l'esquemàtic com per fer la <i>PCB</i>, l'Altium Designer requereix d'unes llibreries on trobar la informació dels components que utilitzarem. Serà necessari tenir una llibreria d'esquemàtics on trobar, per exemple, el número de terminals (<i>pins</i>) i una llibreria de <i>PCB</i> on trobar la petjada o <i>footprint</i>, és a dir, la superfície que ocupa la peça sobre la <i>PCB</i> i la posició dels seus terminals. Si a més a més també volem disposar d'una visió en 3D de la placa, haurem d'incloure els fitxers 3D (format STEP) en aquesta segona llibreria. Les següents figures mostren un parell d'exemples on podem veure d'esquerra a dreta (esquemàtic, llista de pins, petjada o <i>footprint</i> i vista 3D mitjançant fitxers STEP). <br>
@@ -95,7 +113,7 @@ A continuació, descarrega't els fitxers d'Altium Designer i els fitxers <i>Gerb
 <a href="/HD-tacho-part11"> Part11 </a>/
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
- Part14 /
+<a href="/HD-tacho-part14"> Part14 </a>/
  Part15
  </font>
 </p>
