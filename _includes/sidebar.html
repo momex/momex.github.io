@@ -4,7 +4,7 @@
 
 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
 {% for post in posts %}
-   <a href="{{ post.url }}" {% if page.lang == post.lang %} class="{{ post.lang }} active {% endif %}">{{ post.lang }}</a>
+   <a href="{{ post.url }}"> <img style="display:inline" src="/images/{{ post.lang }}.png" {% if page.lang == post.lang %}width="10%"{% else %} width="7%"{%endif %}></a>
 {% endfor %}
 <br><br>
       <h9>

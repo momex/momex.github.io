@@ -38,7 +38,7 @@ Dividiré aquest projecte en 15 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part12">Part 12 - Disseny de la carcassa i suports </a><br>
 <a href="/HD-tacho-part13">Part 13 - Cablejat i instal·lació a la moto </a><br>
 <a href="/HD-tacho-part14">Part 14 - Resultat final i vídeos </a><br>
-Part 15 - Problemes durant el projecte <br>
+Part 15 - Problemes durant el projecte i millores<br>
 
 <p>
 <sub>(1) No us ha passat mai d'anar en 5ena i voler pujar una marxa més?</sub>
