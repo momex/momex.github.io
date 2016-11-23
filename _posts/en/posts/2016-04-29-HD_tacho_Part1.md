@@ -29,15 +29,16 @@ I will divide this project in 14 parts where I will explain the different steps 
 <a href="/en/HD-tacho-part3">Part 3 - Harley Davidson and SAE J1850 VPW </a><br>
 <a href="/en/HD-tacho-part4">Part 4 - Bus Messages </a><br>
 <a href="/en/HD-tacho-part5">Part 5 - Tachometer Benchmarking </a><br>
-<a href="/en/HD-tacho-part5">Part 6 - Design and functions </a><br>
-Part 7 - Components<br>
-Part 8 - Schematics <br>
-Part 9 - PCB design <br>
+<a href="/en/HD-tacho-part6">Part 6 - Design and functions </a><br>
+<a href="/en/HD-tacho-part7">Part 7 - Components</a><br>
+<a href="/en/HD-tacho-part8">Part 8 - Schematics</a><br>
+<a href="/en/HD-tacho-part9">Part 9 - PCB design</a><br>
 Part 10 - Source code and libraries <br>
 Part 11 - Housing design and brackets <br>
 Part 12 - Wiring harness and tests <br>
 Part 13 - Wiring Harness and installation <br>
-Part 14 - Problems during the project <br>
+Part 14 - Final result and videos <br>
+Part 15 - Issues during development <br>
 
 <p>
 <sub>(1) Have you ever been riding in 5th gear and tried to upshift when there is no 6th?</sub>

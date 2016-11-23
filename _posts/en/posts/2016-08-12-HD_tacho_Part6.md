@@ -65,9 +65,9 @@ Project Index:<br>
 <a href="/en/HD-tacho-part4"> Part4 </a>/
 <a href="/en/HD-tacho-part5"> Part5 </a>/
 <b> Part6 </b>/
- Part7 /
- Part8 /
- Part9 /
+<a href="/en/HD-tacho-part7"> Part7 </a>/
+<a href="/en/HD-tacho-part8"> Part8 </a>/
+<a href="/en/HD-tacho-part9"> Part9 </a>/
  Part10 /
  Part11 /
  Part12 /

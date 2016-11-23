@@ -46,21 +46,9 @@ Total, que les vaig acabar comprant i gairebé un mes i poc després ja les teni
 </center>
 <b>3-</b> Aprofitant que la tapa ja estava fora, fer una inspecció visual per entendre la configuració de la PCB i per veure si hi havia algun component fregit que es pogués identificar a simple vista. Desgraciadament, o no, tot semblava estar perfecte (cap condensador reventat, cap IC, resistència, via o pista cremada,... ) <br>
 <center>
-<table border="0" cellspacing="0" cellpadding="0">
-	<tr>
-		<td width="59%">
-		<img src="/images/161012-E3644A/pcbparts.jpg" alt="Contingut: E3644A PCB parts. Source: Momex.cat" title="E3644A PCB Parts">
-		</td>
-		<td rowspan="2">
-		<img src="/images/161012-E3644A/20160922_213305.jpg" alt="Contingut: E3644A PCB Part dreta. Source: Momex.cat" title="E3644A PCB part dreta">
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<img src="/images/161012-E3644A/20160922_212113.jpg" alt="Contingut: E3644A PCB Part esquerra. Source: Momex.cat" title="E3644A PCB part esquerra">
-		</td>
-	</tr>
-</table>
+<img src="/images/161012-E3644A/pcbparts.jpg" width="70%" alt="Contingut: E3644A PCB parts. Source: Momex.cat" title="E3644A PCB Parts">
+<img src="/images/161012-E3644A/20160922_213305.jpg" width="70%" alt="Contingut: E3644A PCB Part dreta. Source: Momex.cat" title="E3644A PCB part dreta">
+<img src="/images/161012-E3644A/20160922_212113.jpg" width="70%" alt="Contingut: E3644A PCB Part esquerra. Source: Momex.cat" title="E3644A PCB part esquerra">
 </center>
 <font size="4"><b>Nota:</b> els números 9935 que es veuen a sobre d'un dels condensadors gegants indiquen l'any i la setmana de la data en que aquest component es va fabricar. La majoria d'elements indiquen anys al voltant de l'any 2000, així que podem intuir que aquesta font d'alimentació es va fabricar cap aquell any (ara fa 16 anys). Segons els adhesius a la part davantera de les fonts, les dues es van calibrar ara farà un any. </font><br>
 
