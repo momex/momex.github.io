@@ -20,7 +20,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, compo
 <b> Part7 </b>/
 <a href="/en/HD-tacho-part8"> Part8 </a>/
 <a href="/en/HD-tacho-part9"> Part9 </a>/
- Part10 /
+<a href="/en/HD-tacho-part10"> Part10 </a>/
  Part11 /
  Part12 /
  Part13 /
