@@ -19,7 +19,7 @@ Abans de tot, el millor es comprovar que la bugia està impregnada d'oli (a vega
 <img style="display:inline" src="/images/161207-netejarbugia/02.jpg" width="40%" alt="Contingut: Bugia impregnada d'oli. Source: Momex.cat" title="Bugia comunicada">
 </center>
 
-Si no llegim 0L (o infinit) voldrà dir que l'oli està comunicant els dos elèctrodes i per tant, en comptes de tenir un arc voltaic en condicions, en tindrem un de petit o no en tindrem, ja que la corrent passarà a través d'aquesta comunicació.<br>
+Si no llegim 0L (o infinit) voldrà dir que l'oli està comunicant els dos elèctrodes i per tant, en comptes de tenir un arc voltaic en condicions, en tindrem un de petit o no en tindrem, ja que el corrent passarà a través d'aquesta comunicació.<br>
 <!--more-->
 
 Les imatges següents mostren la mateixa mesura però en una bugia totalment nova. Com veieu, no hi ha continuitat.<br> 
