@@ -42,7 +42,7 @@ Un cop amb totes aquestes dades ja podem procedir a configurar els límits Ia i 
 
 En total, unes 8 hores i mitja. Un cop recopilades les dades es poden mostrar en una gràfica com la següent:
 <center>
-<img style="display:inline" src="/images/161230-carregar-bat/realgraph.jpg" width="69%" alt="Contingut: Especificació de Yuasa. Source: Momex.cat" title="Especificació de la bateria">
+<img style="display:inline" src="/images/161230-carregar-bat/realgraph.jpg" width="69%" alt="Contingut: Voltatge / Intensitat vs temps. Source: Momex.cat" title="Gràfica real de la càrrega">
 </center>
 
 Us deixo a continuació uns consells pràctics que he trobat interessants al web de Yuasa, <a href="http://www.yuasa.co.uk/info/technical/need-know-batteries/" target="_blank">Informació sobre bateries</a>.<br>
