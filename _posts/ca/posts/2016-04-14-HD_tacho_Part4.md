@@ -28,7 +28,11 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, missa
  Part15
  </font>
 </p>
+
+<center>
+</center>
 ### Missatges i capçaleres:
+
 Les següents taules recullen els missatges que circulen pel bus J1850 VPW d'una Sportster Iron (XL883N) de l'any 2011 per a cadascuna de les ECUs presents (Motor, Display i Body Controller). La informació l'he obtinguda de:<br>
 - SAE J2178-4.<br>
 - Assajos propis amb datalogger.<br>
