@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, codi,
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 Un cop pujat el codi al nou repositori de Github (<a href="https://github.com/momex/DIGTACHO" target="_blank">DIGTACHO</a>), en aquesta entrada miraré de resumir les parts més importants del projecte. Com es veu a continuació, caldria separar els fitxers del repositori en 4 grups diferents:<br>
@@ -547,6 +547,6 @@ Fins aquí els detalls del codi. Per més detall, aneu directament al repositori
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

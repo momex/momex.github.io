@@ -85,7 +85,7 @@ The best and shortest way to understand this protocol is to read this document. 
 
 <b>3- Filtres:</b> Necessitem incloure com a mínim dos filtres per poder navegar amb comoditat pel blog i canviar de llengua quan volguem. <br>
 <b>3.1 - <i>Sidebar</i>:</b> Si us fixeu, a la part superior esquerra just a sobre del títol d'aquest blog (Momex) hi ha l'opció d'escollir el llenguatge. Si només hi ha la possibilitat de català, llavors només tindrem "ca" (també es podria programar per no ensenyar res si només hi ha una opció), si existeix una versió en un altre idioma, per exemple l'anglès, aleshores al costat apareixerà "en".<br>
-Per tant, cada vegada que es carregui la barra lateral (<i>sidebar</i>), mirarem si pel post que estem carregant existeix una versió en un altre idioma. Com? Un dels requisits és que el <i>tag "name"</i> ha de portar el mateix nom en tots els posts que siguin el mateix. Per exemple, a dalt en el punt 2, el <i>tag "name"</i> era "HD-tacho-part3" en totes dues versions però el <i>tag "lang"</i> era diferent. El següent codi permet generar tants enllaços com llengües diferents hi hagi d'un mateix post.
+Per tant, cada vegada que es carregui la barra lateral (<i>sidebar</i>), mirarem si pel post que estem carregant existeix una versió en un altre idioma. Com? Un dels requisits és que el <i>tag "name"</i> ha de portar el mateix nom en tots els posts que siguin el mateix. Per exemple, a dalt en el punt 2, el <i>tag "name"</i> era "HD-tacho-part3" en totes dues versions, però el <i>tag "lang"</i> era diferent. El següent codi permet generar tants enllaços com llengües diferents hi hagi d'un mateix post.
 
 {% highlight txt %}
 {% raw  %}

@@ -25,13 +25,13 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, compo
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 En aquesta part llistaré els components i circuits integrats (CI) que he utilitzat. A continuació teniu un diagrama bàsic del circuit (l'esquemàtic sencer detallat vindrà a la secció posterior).<br>
 <center><img src="/images/Part7/schematic1.PNG" width="80%" alt="Diagrama bàsic del circuit. Source: Momex.cat" title="Diagrama bàsic del circuit"></center>
 
-<font size="3"><b>Nota</b>: El Digit3 s'alternarà amb la barra de revolucions. En el mode RPM es veuran tots 4 dígits però en la resta de modes el Digit3 romandrà OFF i serà la barra la que mostarà les RPM. La resta de modes poden funcionar amb només 3 dígits.</font>
+<font size="3"><b>Nota</b>: El Digit3 s'alternarà amb la barra de revolucions. En el mode RPM es veuran tots 4 dígits, però en la resta de modes el Digit3 romandrà OFF i serà la barra la que mostarà les RPM. La resta de modes poden funcionar amb només 3 dígits.</font>
 
 ### Microchip PIC18F2553<br>
 
@@ -126,6 +126,6 @@ L'alternativa a aquests circuits integrats és utilitzar transistors i resistèn
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

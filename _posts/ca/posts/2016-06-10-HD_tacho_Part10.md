@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 Aprofito aquesta entrada per guanyar una mica de temps i així acabar de retocar el codi. A continuació, mostraré les diferents fases del projecte amb els prototips amb els que vaig anar desenvolupant el codi font del tacòmetre. Com veureu, cadascuna de les plataformes de prototipatge té les seves avantatges i desavantatges.<br>
@@ -83,6 +83,6 @@ Aquest és l'últim pas per a tot aficionat a l'electrònica que vol portar els 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

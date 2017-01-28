@@ -59,10 +59,10 @@ A misses dites, he de reconèixer que tot això ha passat per no aplicar el sent
 <img style="display:inline" src="/images/170123-E3644A_2/00b.jpg" width="40%" alt="Contingut: E3644A Manual d'usuari per connectar una bateria a la font d'alimentació. Source: Momex.cat">
 </center>
 
-És a dir, si hagués col·locat un diode com ho hagués fet una persona amb dos dits de front o hagués llegit el manual, res de tot això hagués passat però... on està la diversió sinó?<br>
+És a dir, si hagués col·locat un diode com ho hagués fet una persona amb dos dits de front o hagués llegit el manual, res de tot això hagués passat, però... on està la diversió sinó?<br>
 
 Un cop ja sabem tot això, què ens queda? Doncs comprar un substitut i com aquest CI ja està descatalogat ens toca comprar un alternatiu de característiques similars com el TYN640RG (<i>Repetitive peak off-stat voltage</i>: 600V, <i>On-state max current</i>: 40A, <i>Sensitivity</i>: 35mA). Recordem que l'original era el MCR264-4 (200V, 40A i 50mA).<br>
- Un cop el rebem a casa, desoldem l'antic i soldem el nou, al ser <a href="https://en.wikipedia.org/wiki/Through-hole_technology" target="_blank"><i>through-hole</i></a> l'operació és molt senzilla (donem gràcies). Un cop finalitzat, comprovem la resistència entre terminals amb el multímetre i veiem que no és molt alta..per no dir que hi ha literlament continuitat (14 Ohms). No hi ha res a simple vista que sembli cremat així que penso que pot ser alguna altra part del circuit i que sigui totalment normal..si? mmm...<br>
+ Un cop el rebem a casa, desoldem l'antic i soldem el nou, al ser <a href="https://en.wikipedia.org/wiki/Through-hole_technology" target="_blank"><i>through-hole</i></a> l'operació és molt senzilla (donem gràcies). Un cop finalitzat, comprovem la resistència entre terminals amb el multímetre i veiem que no és molt alta..per no dir que hi ha literlament continuïtat (14 Ohms). No hi ha res a simple vista que sembli cremat així que penso que pot ser alguna altra part del circuit i que sigui totalment normal..si? mmm...<br>
 
 Moment de la veritat, connectem l'endoll i engegem l'aparell... vaja, el que em temia, tot segueix igual. Ara em tocarà tornar a fer tota aquella feinada de mirar component a component aviam si està dins dels valors que vaig veure l'altre cop. De totes maneres, decideixo donar-hi un altre cop d'ull i afinar una mica més el nas. La veritat és que encara hi ha alguna cosa que fa olor a cremat. Començo a mirar els <a href="https://ca.wikipedia.org/wiki/Varistor" target="_blank">varistors</a> un per un i de cop i volta, allà, amagat a sota del transformador, veig un altre CI TO220-3 cremat.<br>
 
@@ -76,7 +76,7 @@ I aquest component és el CR500 <i>a.k.a.</i> MUR1615CT (Switch-mode power recti
 <img style="display:inline" src="/images/170123-E3644A_2/11.png" width="80%" alt="Contingut: E3642A esquemàtic MUR1615CT. Source: Momex.cat">
 </center>
 
-Com veieu, està a tocar dels terminals de sortida i mirant la caiguda de voltatge entre ànode i càtode dels diodes estaven clarament cremats. Per tant ara m'explico perquè encara hi havia continuitat entre terminals. Un cop rebut el recanvi, el substitueixo, engego la font d'alimentació i el problema està efectivament <b>resolt!!</b>.<br>
+Com veieu, està a tocar dels terminals de sortida i mirant la caiguda de voltatge entre ànode i càtode dels diodes estaven clarament cremats. Per tant ara m'explico perquè encara hi havia continuïtat entre terminals. Un cop rebut el recanvi, el substitueixo, engego la font d'alimentació i el problema està efectivament <b>resolt!!</b>.<br>
 Us deixo amb unes últimes imatges del recanvi i dels dos caiguts...<br>
 <center>
 <img style="display:inline" src="/images/170123-E3644A_2/13.jpg" width="49%" alt="Contingut: E3642A MUR1615CT substituït. Source: Momex.cat">

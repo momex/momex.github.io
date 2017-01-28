@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 Sense ànim d'ésser un tutorial, en aquesta 9a part mostraré una sèrie de passos que vaig seguir per realitzar el disseny de la <i>PCB</i> (<i>Printed Circuit Board</i> o Placa de Circuit Imprès).<br>
@@ -114,6 +114,6 @@ A continuació, descarrega't els fitxers d'Altium Designer i els fitxers <i>Gerb
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

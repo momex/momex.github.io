@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, missa
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 
@@ -484,6 +484,6 @@ Nota2: l'últim byte dels missatges sempre serà el CRC (no l'he representat a l
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

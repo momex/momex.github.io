@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, disse
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 Aquesta part la dividiré en 2 seccions i en cadascuna resumiré les parts més importants.
@@ -73,6 +73,6 @@ La idea vindria a ser quelcom similar a la unió d'aquests dos models:<br><cente
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

@@ -48,7 +48,7 @@ I ara a seguir les instruccions:<br>
 <img style="display:inline" src="/images/161102-MPLAB/08.png" width="49%" alt="Contingut: Passos. Source: Momex.cat" title="Passos">
 </center>
 
-Com es veu a l'última imatge de la instal·lació, ens recomana uns <i>links</i> per anar a buscar i descarregar el compilador. La primera sorpresa que m'emporto és que a Linux no tindrem el compilador C18 com a Windows, sinó un anomenat XC8. No és que sigui un fanàtic del C18 però això de canviar de compilador, de ben segur, em portarà problemes amb la portabilitat dels codis que ja tinc escrits.<br>
+Com es veu a l'última imatge de la instal·lació, ens recomana uns <i>links</i> per anar a buscar i descarregar el compilador. La primera sorpresa que m'emporto és que a Linux no tindrem el compilador C18 com a Windows, sinó un anomenat XC8. No és que sigui un fanàtic del C18, però això de canviar de compilador, de ben segur, em portarà problemes amb la portabilitat dels codis que ja tinc escrits.<br>
 
 Total, en <a href="http://www.microchip.com/mplab/compilers" target="_blank">aquest link</a>, a la part d'abaix, hi trobareu una altra pestanya on baixar-vos el compilador i un parell més de fitxer que poder ser interessants.<br>
 

@@ -26,7 +26,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 En aquesta segona part ens centrarem en l'eléctrònica de la moto i en saber què podem i què no podem utilitzar.<br>
@@ -92,6 +92,6 @@ El pins són: <br>
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

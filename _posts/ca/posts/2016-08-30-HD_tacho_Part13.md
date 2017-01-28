@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <b> Part13 </b>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 Un cop tenim la PCB, la carcassa i el suport, ara "només" faltarà el cablejat. Hi ha mil i una maneres de connectar la PCB i els 3 cables necessaris per fer-la funcionar (12V, Massa i bus de dades J1850), passant per l'opció més econòmica (3 cables des de la PCB fins a algun punt de la moto) fins a la més cara (cablejat ref# 68811-07 que ve amb el kit de tacòmetre ref#67182-07).<br>
@@ -181,6 +181,6 @@ Igual que l'anterior, aquest cablejat permet connectar la PCB directament al PIC
 <a href="/HD-tacho-part12"> Part12 </a>/
 <b> Part13 </b>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

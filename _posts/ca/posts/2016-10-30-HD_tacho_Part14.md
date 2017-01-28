@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <b> Part14 </b>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 
@@ -77,6 +77,6 @@ Bé, i fins aquí donem per acabat aquest projecte. No obstant, es poden millora
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <b> Part14 </b>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

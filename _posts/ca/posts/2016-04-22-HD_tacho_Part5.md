@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, bench
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 La manera més fàcil de començar un projecte sempre és fer un "benchmarking", és a dir, una anàlisi del mercat. D'aquesta manera sabrem què volem, com ho volem i si podem reduir la complexitat del projecte utilitzant peces ja productives. <br>
@@ -129,6 +129,6 @@ Rellotges petits amb sol·lució de 3 cables (Ign, ground i senyal de la bobina 
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

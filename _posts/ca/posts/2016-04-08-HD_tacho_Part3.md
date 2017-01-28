@@ -25,7 +25,7 @@ keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, VPW, especif
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 La manera curta i millor d'entendre aquest protocol és llegint <a href="http://download.intel.com/design/intarch/papers/j1850_wp.pdf" target="_blank">aquest document</a> (en anglès). La manera llarga és llegint directament la SAE J1850. De totes maneres, tot seguit resumiré els punts bàsics que s'han d'entendre per a poder programar un codi per rebre i interpretar els missatges de l'ECU motor. <br>
@@ -59,7 +59,7 @@ En aquest tipus de busos tothom podrà parlar quan vulgui i per això s'ha d'est
 <dt>I com es defineix la prioritat dels missatges?</dt>
 Tot es resol físicament. Com ja hem dit, el bus està en estat natural en mode passiu i per tant, els nodes només han d'activar o desactivar el transistor per posar el bus en mode actiu o passiu. Si un node està transmetent un bit passiu però llegeix que el bus està actiu, això vol dir que algun altre node està parlant a la vegada.
 <dt>Idò?</dt> 
-Tot radica als 3 bytes de la capçalera del missatge. Allà, un d'aquests bytes indica la prioritat del missatge que l'enginyer haurà establert amb anterioritat (per exemple: un missatge de RPM ha de ser més important que un missatge de temperatura, ja que en un segon la temperatura és bastant estable degut a la inèrcia tèrmica però les RPM poden variar molt).<br>
+Tot radica als 3 bytes de la capçalera del missatge. Allà, un d'aquests bytes indica la prioritat del missatge que l'enginyer haurà establert amb anterioritat (per exemple: un missatge de RPM ha de ser més important que un missatge de temperatura, ja que en un segon la temperatura és bastant estable degut a la inèrcia tèrmica, però les RPM poden variar molt).<br>
 Els missatges amb més prioritat seran per tant aquells amb més bits actius al començament del missatge.
 
 ### Composició d'un missatge:
@@ -176,6 +176,6 @@ Com veieu els bits es van alternant entre actiu i passiu. Com que el SOF dicta q
 <a href="/HD-tacho-part12"> Part12 </a>/
 <a href="/HD-tacho-part13"> Part13 </a>/
 <a href="/HD-tacho-part14"> Part14 </a>/
- Part15
+<a href="/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

@@ -10,7 +10,7 @@ category: tacho
 keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE
 ---
 
-A l'hora de conduir un vehicle a tots ens venen al cap com a mínim un parell d'indicadors bàsics que ens donen una idea de la velocitat i de les revolucions (rpm) del motor. En camions o cotxes és habitual trobar molta més informació al quadre d'instruments però en una moto, generalment per motius d'espai, això va una mica més comprimit. Si bé hi ha models que incorporen els dos rellotges de velocitat i rpm, alguns els fusionen i passen a tenir un rellotge de rpm i un LCD on es mostra la velocitat.<br>
+A l'hora de conduir un vehicle a tots ens venen al cap com a mínim un parell d'indicadors bàsics que ens donen una idea de la velocitat i de les revolucions (rpm) del motor. En camions o cotxes és habitual trobar molta més informació al quadre d'instruments, però, en una moto, generalment per motius d'espai, això va una mica més comprimit. Si bé hi ha models que incorporen els dos rellotges de velocitat i rpm, alguns els fusionen i passen a tenir un rellotge de rpm i un LCD on es mostra la velocitat.<br>
 Quan passem a motos més econòmiques o a motors que no es revolucionen molt, la cosa es simplifica bastant. Els indicadors d'una Harley Davidson Sportster són molt bàsics. Consten d'un rellotge on s'indica la velocitat, uns quants testimonis lluminosos (benzina, avís d'error de motor,...) i un petit display LCD per mostrar els km totals, dos parcials i l'hora. 
 <p>
 
@@ -38,7 +38,7 @@ Dividiré aquest projecte en 15 parts, on aniré introduint els passos que he se
 <a href="/HD-tacho-part12">Part 12 - Disseny de la carcassa i suports </a><br>
 <a href="/HD-tacho-part13">Part 13 - Cablejat i instal·lació a la moto </a><br>
 <a href="/HD-tacho-part14">Part 14 - Resultat final i vídeos </a><br>
-Part 15 - Problemes durant el projecte i millores<br>
+<a href="/HD-tacho-part15">Part 15 - Problemes durant el projecte i millores</a><br>
 
 <p>
 <sub>(1) No us ha passat mai d'anar en 5ena i voler pujar una marxa més?</sub>

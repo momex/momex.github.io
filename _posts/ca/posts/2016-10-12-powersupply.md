@@ -54,7 +54,7 @@ Total, que les vaig acabar comprant i gairebé un mes i poc després ja les teni
 
 <b>4-</b> Encendre les dues fonts d'alimentació (sense la tapa) i verificar que el comportament era el mateix que el descrit.<br>
 <b>PSA (<i>Power Supply A</i>):</b> La pantalla mostrava 39,6V i 1688A. Amb l'ajut d'un multímetre, el valor a la sortida era de 0V i 0A. A l'ajustar manualment el límit de V i A amb el <i>rotary encoder</i>, el sistema responia i el Voltage augmentava segons el multímetre, però la font d'alimentació no proporcionava corrent per exemple per alimentar un ventilador de 12V.<br>
-<b>PSB (<i>Power Supply B</i>):</b>  La pantalla mostrava -0,58V i 0.132A que corresponia amb el valor llegit a la sortida amb un multímetre. A l'ajustar manualment el límit de V i A amb el <i>rotary encoder</i>, el sistema et permetia variar el valor del límit però la sortida no variava.<br>
+<b>PSB (<i>Power Supply B</i>):</b>  La pantalla mostrava -0,58V i 0.132A que corresponia amb el valor llegit a la sortida amb un multímetre. A l'ajustar manualment el límit de V i A amb el <i>rotary encoder</i>, el sistema et permetia variar el valor del límit, però la sortida no variava.<br>
 
 <b>5-</b> Un intercanvi ràpid dels panells frontals entre les dues unitats ens permet descartar que tinguin un problema. El resultat és el mateix.<br>
 
