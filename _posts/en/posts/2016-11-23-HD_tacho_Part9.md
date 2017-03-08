@@ -21,11 +21,11 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
 <a href="/en/HD-tacho-part8"> Part8 </a>/
 <b> Part9 </b>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 In this 9th part I will show you some of the steps I followed up to do this PCB design.<br>
@@ -109,10 +109,10 @@ Project Index:<br>
 <a href="/en/HD-tacho-part8"> Part8 </a>/
 <b> Part9 </b>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

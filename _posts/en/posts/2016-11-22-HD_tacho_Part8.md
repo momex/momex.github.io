@@ -21,11 +21,11 @@ keywords: HD, harley, davidson, tachometer, tacho, tacòmetre, rpm, J1850, SAE, 
  <b>Part8 </b>/
 <a href="/en/HD-tacho-part9"> Part9 </a>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 So far, everything we have done has been to investigate about the SAE J1850 protocol, check on the Internet about which components are available and think how we are going to build this tachometer. Now it is time to start the practical part, this means, start to define the schematic to allow us, afterwards, design the PCB (Printed Circuit Board).<br>
@@ -252,10 +252,10 @@ Project Index:<br>
 <b> Part8 </b>/
 <a href="/en/HD-tacho-part9"> Part9 </a>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

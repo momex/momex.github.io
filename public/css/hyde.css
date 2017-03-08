@@ -37,12 +37,35 @@ html {
     font-size: 16px;
   }
 }
-@media (min-width: 58em) {
+@media (min-width: 64em) {
   html {
     font-size: 20px;
   }
 }
 
+/*
+ * Sidebar right
+ *Left sidebar to add categories or banners 
+ */
+
+.sidebarright {
+  text-align: center;
+  padding: 1rem 1rem;			/*left and right space for the images*/
+  color: #000000;
+  background-color: #ffffff;
+  overflow: auto;			/*scroll will appear if the window is to short*/
+}
+@media (min-width: 48em)  {
+  .sidebarright {			/* setting of right box */
+    position: fixed;
+    top: 0;
+    right: 0;				/*setting the sidebar to the right*/
+    bottom: 0;
+    width: 10rem;			/*width of the sidebar when window is higher than 48em*/
+    text-align: right;
+  }
+
+}
 
 /*
  * Sidebar
@@ -64,9 +87,10 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 17rem;
     text-align: left;
   }
+
 }
 
 /* Sidebar links */
@@ -137,16 +161,11 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 45rem;		/*width of the white area with the blog text*/
-    margin-left: 20rem;
-    margin-right: 2rem;
+    margin-left: 19rem;
+    margin-right: 11rem;
   }
 }
 
-@media (min-width: 64em) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
 }
 
 footer {

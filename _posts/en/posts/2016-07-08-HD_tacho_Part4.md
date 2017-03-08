@@ -21,11 +21,11 @@ keywords: HD, harley, davidson, tachometer, tacho, rpm, J1850, SAE, VPW, specifi
 <a href="/en/HD-tacho-part8"> Part8 </a>/
 <a href="/en/HD-tacho-part9"> Part9 </a>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>
 ### Messages and Headers:
@@ -476,10 +476,10 @@ Project Index:<br>
 <a href="/en/HD-tacho-part8"> Part8 </a>/
 <a href="/en/HD-tacho-part9"> Part9 </a>/
 <a href="/en/HD-tacho-part10"> Part10 </a>/
- Part11 /
- Part12 /
- Part13 /
- Part14 /
- Part15
+<a href="/en/HD-tacho-part11"> Part11 </a>/
+<a href="/en/HD-tacho-part12"> Part12 </a>/
+<a href="/en/HD-tacho-part13"> Part13 </a>/
+<a href="/en/HD-tacho-part14"> Part14 </a>/
+<a href="/en/HD-tacho-part15"> Part15 </a>
  </font>
 </p>

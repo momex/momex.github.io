@@ -34,11 +34,11 @@ I will divide this project in 14 parts where I will explain the different steps 
 <a href="/en/HD-tacho-part8">Part 8 - Schematics and BOM</a><br>
 <a href="/en/HD-tacho-part9">Part 9 - PCB design</a><br>
 <a href="/en/HD-tacho-part10">Part 10 - Prototypes evolution </a><br>
-Part 11 - Source code and libraries <br>
-Part 12 - Housing design and brackets <br>
-Part 13 - Wiring harness and installation <br>
-Part 14 - Final result and videos <br>
-Part 15 - Issues during development <br>
+<a href="/en/HD-tacho-part11">Part 11 - Source code and libraries </a><br>
+<a href="/en/HD-tacho-part12">Part 12 - Housing design and brackets </a><br>
+<a href="/en/HD-tacho-part13">Part 13 - Wiring harness and installation </a><br>
+<a href="/en/HD-tacho-part14">Part 14 - Final result and videos </a><br>
+<a href="/en/HD-tacho-part15">Part 15 - Issues during development and improvements </a><br>
 
 <p>
 <sub>(1) Have you ever been riding in 5th gear and tried to upshift when there is no 6th?</sub>
