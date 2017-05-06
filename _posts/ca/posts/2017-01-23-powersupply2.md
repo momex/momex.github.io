@@ -6,7 +6,7 @@ comments: true
 title: Segona reparació d'una font d'alimentació Agilent E3644A (DC Power Supply)
 name: PSAgilent2
 permalink: reparació2-agilent-E3644A
-category: powersupply
+category: reparació
 keywords: reparació, repair, font alimentació, power supply, Agilent, HP, Keysight, E3644A
 ---
 
