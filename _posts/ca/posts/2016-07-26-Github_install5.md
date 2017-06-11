@@ -29,7 +29,7 @@ keywords: Jekyll, github, github-pages, web, estàtic, instal·lació, Part5
 <center><img src="/images/160726-jekyll5/screenshot.png" width="80%" alt="Github repository settings">
 <img src="/images/160726-jekyll5/screenshot2.png" width="80%" alt="Github repository settings"></center>
 <!--more-->
-<b>iii-</b> El següent pas és anar al panell de configuració del teu domini i editar els registres d'IP. Amb això aconseguirem que quan algú vulgui accedir al web sigui redirigit a Github i no al petit hosting que em proporcionava el meu agent de dominis. En el meu cas, al panell haurem d'eliminar el registre A i afegir-ne 2 de nous (especificats al web de Github):<br>
+<b>iii-</b> El següent pas és anar al panell de configuració del teu domini i editar els registres d'IP. Amb això aconseguirem que quan algú vulgui accedir al web sigui redirigit a Github i no al petit hosting que em proporcionava el meu agent de dominis. En el meu cas, al panell haurem d'eliminar el registre A i afegir-ne 2 de nous (especificats <a href="https://help.github.com/articles/setting-up-an-apex-domain/" target="_blank">al web de Github</a>):<br>
 192.30.252.153<br>
 192.30.252.154<br>
 
