@@ -52,7 +52,7 @@ Efectivament, ara tot comença a cobrar sentit. El que s'ha cremat és l'SCR que
 - <u>TL074C (U127)</u>: <i>OPAMP</i>. <a href="https://ca.wikipedia.org/wiki/Amplificador_operacional" target="_blank">Amplificador Operacional</a>.
 
 
-A misses dites, he de reconèixer que tot això ha passat per no aplicar el sentit comú i per no llegir el <a href="http://cp.literature.agilent.com/litweb/pdf/E3640-90001.pdf" target="_blank">manual</a> (<a href="https://en.wikipedia.org/wiki/RTFM" target="_blank">RTFM</a>) de la font. Allà hi diu clarament:<br>
+He de reconèixer que tot això ha passat per no aplicar el sentit comú i per no llegir el <a href="http://cp.literature.agilent.com/litweb/pdf/E3640-90001.pdf" target="_blank">manual</a> (<a href="https://en.wikipedia.org/wiki/RTFM" target="_blank">RTFM</a>) de la font. Allà hi diu clarament:<br>
 
 <i><font size="4">The power supply’s OVP circuit contains a crowbar SCR, which effectively shorts the output of the power supply whenever the overvoltage condition occurs. If an external voltage source such as a battery is connected across the output, and the overvoltage condition inadvertently occurs, the SCR will continuously sink a large current from the source and possibly damaging the power supply. To avoid this, a diode must be connected in series with the output as shown in Figure 2-1</font></i><br>
 <center>
