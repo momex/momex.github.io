@@ -13,7 +13,7 @@ title:           Momex
 name:            Momex
 description: HD, Electronics and more.
 url:              http://www.momex.cat
-baseurl: /
+newbaseurl: /
 
 author:
   name:           'Xavier Morales'

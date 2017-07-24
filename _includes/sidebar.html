@@ -2,9 +2,9 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
 
-{{ site.baseurl }}<br>
+<!--{{ site.newbaseurl }}<br>
 {{ site.url }}<br>
-{{ page.path }}<br>
+{{ page.path }}<br>-->
 
 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
 {% for post in posts %}
@@ -13,7 +13,7 @@
 <br><br>
 
       <h9>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.newbaseurl }}">
           {{ site.title }}
         </a>
       </h9><br>
@@ -21,18 +21,18 @@
 <br><br><br><br><br>
     </div>
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.name == "index.html" %} active{% endif %}" href="{{ site.baseurl }}{% if page.lang == "en" %}en{% endif %}">{{ site.trans[page.lang].home }}</a>
+      <a class="sidebar-nav-item{% if page.name == "index.html" %} active{% endif %}" href="{{ site.newbaseurl }}{% if page.lang == "en" %}en{% endif %}">{{ site.trans[page.lang].home }}</a>
 
-      <a class="sidebar-nav-item{% if page.name == "arxiu" %} active{% endif %}" href="{{ site.baseurl }}{% if page.lang == "en" %}en/archive{% endif %}{% if page.lang == "ca" %}arxiu{% endif %}">{{ site.trans[page.lang].arxiu }}</a>
+      <a class="sidebar-nav-item{% if page.name == "arxiu" %} active{% endif %}" href="{{ site.newbaseurl }}{% if page.lang == "en" %}en/archive{% endif %}{% if page.lang == "ca" %}arxiu{% endif %}">{{ site.trans[page.lang].arxiu }}</a>
 
-      <a class="sidebar-nav-item{% if page.name == "about" %} active{% endif %}" href="{{ site.baseurl }}{% if page.lang == "en" %}en/about{% endif %}{% if page.lang == "ca" %}sobremi{% endif %}">{{ site.trans[page.lang].about }}</a>
+      <a class="sidebar-nav-item{% if page.name == "about" %} active{% endif %}" href="{{ site.newbaseurl }}{% if page.lang == "en" %}en/about{% endif %}{% if page.lang == "ca" %}sobremi{% endif %}">{{ site.trans[page.lang].about }}</a>
 
       <a href="mailto:{{ site.author.email }}">{{ site.trans[page.lang].cont }}</a>      
       <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">{{ site.trans[page.lang].ghpro }}</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}{% if page.lang == "en" %}en/tachometerHD{% endif %}{% if page.lang == "ca" %}tachometerHD{% endif %}">{{ site.trans[page.lang].tachoHD }}</a>
+      <a class="sidebar-nav-item" href="{{ site.newbaseurl }}{% if page.lang == "en" %}en/tachometerHD{% endif %}{% if page.lang == "ca" %}tachometerHD{% endif %}">{{ site.trans[page.lang].tachoHD }}</a>
       <br>
 <center>
-      <a href="{{ site.baseurl }}blog{% if page.lang == "en" %}_en{% endif %}1.xml" target="_blank"><img src="/images/rss_icon.png" alt="RSS"></a></center>
+      <a href="{{ site.newbaseurl }}blog{% if page.lang == "en" %}_en{% endif %}1.xml" target="_blank"><img src="/images/rss_icon.png" alt="RSS"></a></center>
 
 <span class="sidebar-nav-item">{{ site.trans[page.lang].search }}</span>
 <!-- my custom google search -->
