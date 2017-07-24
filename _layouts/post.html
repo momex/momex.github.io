@@ -20,7 +20,7 @@ layout: default
 <div class="related">
   <h2>{{ site.trans[page.lang].related }}: {{ cat }}</h2>
   <ul class="related-posts">
-    {% for post in site.categories[cat] limit:4 | where:"type", "posts" %}
+    {% for post in site.categories[cat] limit:4 %}
       <li>
         <h3>
           <a href="{{ post.url }}">
