@@ -2,11 +2,16 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
 
+{{ site.baseurl }}<br>
+{{ site.url }}<br>
+{{ page.path }}<br>
+
 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
 {% for post in posts %}
    <a href="{{ post.url }}"> <img style="display:inline" src="/images/{{ post.lang }}.png" {% if page.lang == post.lang %}width="10%"{% else %} width="7%"{%endif %}></a>
 {% endfor %}
 <br><br>
+
       <h9>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -25,7 +30,6 @@
       <a href="mailto:{{ site.author.email }}">{{ site.trans[page.lang].cont }}</a>      
       <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">{{ site.trans[page.lang].ghpro }}</a>
       <a class="sidebar-nav-item" href="{{ site.baseurl }}{% if page.lang == "en" %}en/tachometerHD{% endif %}{% if page.lang == "ca" %}tachometerHD{% endif %}">{{ site.trans[page.lang].tachoHD }}</a>
-
       <br>
 <center>
       <a href="{{ site.baseurl }}blog{% if page.lang == "en" %}_en{% endif %}1.xml" target="_blank"><img src="/images/rss_icon.png" alt="RSS"></a></center>
