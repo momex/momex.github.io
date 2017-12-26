@@ -57,6 +57,7 @@ Haurem d'instal·lar el següent:<br>
 
 Per instal·lar aquests paquets a Ubuntu, introduir al terminal les següents línies:
 {% highlight bash %}
+sudo apt-get install build-essential
 sudo apt-get install gem
 sudo apt-get install ruby rubygems-integration
 sudo apt-get install ruby2.3-dev
