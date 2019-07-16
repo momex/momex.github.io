@@ -12,7 +12,7 @@ keywords: reparació, repair, font alimentació, power supply, Agilent, HP, Keys
 
 Sí, ho he fet..he cremat <a href="http://momex.cat/reparaci%C3%B3-agilent-E3644A" target="_blank">la font d'alimentació</a> que fa un temps vaig arreglar. Tot va passar molt ràpid, jugant amb una bateria, la vaig connectar i el <i>magic smoke</i> va impregnar tota l'habitació. Així que ara només toca fer una cosa, arreglar-la un altre cop!<br>
 
-Com hi ha alguna cosa cremada però la font segueix funcionant, o això sembla mirant la pantalla, crec que és una bona oportunitat per veure com reacciona la font quan li demano d'incrementar el voltatge.<br>
+Com que hi ha alguna cosa cremada però la font segueix funcionant, o això sembla mirant la pantalla, crec que és una bona oportunitat per veure com reacciona la font quan li demano d'incrementar el voltatge.<br>
 <center>
 <img style="display:inline" src="/images/170123-E3644A_2/00.jpg" width="99%" alt="Contingut: E3644A failure. Source: Momex.cat">
 </center>
@@ -61,7 +61,7 @@ He de reconèixer que tot això ha passat per no aplicar el sentit comú i per n
 
 És a dir, si hagués col·locat un diode com ho hagués fet una persona amb dos dits de front o hagués llegit el manual, res de tot això hagués passat, però... on està la diversió sinó?<br>
 
-Un cop ja sabem tot això, què ens queda? Doncs comprar un substitut i com aquest CI ja està descatalogat ens toca comprar un alternatiu de característiques similars com el TYN640RG (<i>Repetitive peak off-stat voltage</i>: 600V, <i>On-state max current</i>: 40A, <i>Sensitivity</i>: 35mA). Recordem que l'original era el MCR264-4 (200V, 40A i 50mA).<br>
+Un cop ja sabem tot això, què ens queda? Doncs comprar un substitut i com que aquest CI ja està descatalogat ens toca comprar un alternatiu de característiques similars com el TYN640RG (<i>Repetitive peak off-stat voltage</i>: 600V, <i>On-state max current</i>: 40A, <i>Sensitivity</i>: 35mA). Recordem que l'original era el MCR264-4 (200V, 40A i 50mA).<br>
  Un cop el rebem a casa, desoldem l'antic i soldem el nou, al ser <a href="https://en.wikipedia.org/wiki/Through-hole_technology" target="_blank"><i>through-hole</i></a> l'operació és molt senzilla (donem gràcies). Un cop finalitzat, comprovem la resistència entre terminals amb el multímetre i veiem que no és molt alta..per no dir que hi ha literlament continuïtat (14 Ohms). No hi ha res a simple vista que sembli cremat així que penso que pot ser alguna altra part del circuit i que sigui totalment normal..si? mmm...<br>
 
 Moment de la veritat, connectem l'endoll i engegem l'aparell... vaja, el que em temia, tot segueix igual. Ara em tocarà tornar a fer tota aquella feinada de mirar component a component aviam si està dins dels valors que vaig veure l'altre cop. De totes maneres, decideixo donar-hi un altre cop d'ull i afinar una mica més el nas. La veritat és que encara hi ha alguna cosa que fa olor a cremat. Començo a mirar els <a href="https://ca.wikipedia.org/wiki/Varistor" target="_blank">varistors</a> un per un i de cop i volta, allà, amagat a sota del transformador, veig un altre CI TO220-3 cremat.<br>
