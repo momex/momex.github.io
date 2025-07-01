@@ -12,13 +12,13 @@ plugins: [jekyll-paginate]
 title:           Momex
 name:            Momex
 description: HD, Electronics and more.
-url:              http://www.momex.cat
+url:              http://momex.github.io
 newbaseurl: /
 
 author:
   name:           'Xavier Morales'
-  url:            https://www.momex.cat
-  email:          morales.xavier@momex.cat
+  url:            https://momex.github.io
+  email:          momexcat@gmail.com
 
 paginate:         5
 
@@ -35,7 +35,7 @@ trans:
     home: "Inici"
     about: "Sobre mi"
     related: "Posts similars amb la categoria"
-    search: "Buscar a momex.cat:"
+    search: "Buscar a momex.github.io"
     arxiu: "Arxiu"
     cont: "Contacte"
     ghpro: "Projecte web GitHub"
@@ -47,7 +47,7 @@ trans:
     home: "Home"
     about: "About"
     related: "Related Posts with similar category"
-    search: "Search in momex.cat:"
+    search: "Search in momex.github.io:"
     arxiu: "Archive"
     cont: "Contact"
     ghpro: "GitHub project"
