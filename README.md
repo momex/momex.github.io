@@ -10,4 +10,4 @@ Software Electrònic, esquemàtics, imatges, ... per Xavier Morales.
 
 ## Autor
 **Xavier Morales**
-- <http://www.momex.cat>
+- <http://momex.github.io>
